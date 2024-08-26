@@ -3,12 +3,12 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Error } from "./pages/404";
-import "./index.css";
 import { Root } from "./Root";
 import { About } from "./pages/About";
 import { Clinical } from "./pages/Clinical";
 import { Forensic } from "./pages/Forensic";
 import { Contact } from "./pages/Contact";
+import "./index.css";
 
 const router = createBrowserRouter([
   {
