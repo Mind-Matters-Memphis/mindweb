@@ -1,7 +1,9 @@
 import { Title } from "../components/HomeTitle";
 import calm from "../assets/imgs/Calm.jpg"
 import contemplative from "../assets/imgs/InDeepThought.jpg"
+import portrait from "../assets/imgs/Portrait.jpg"
 import { ListItem } from "../components/HomeListItem";
+import { Link } from "react-router-dom";
 export const Home = () => {
       // background image of initial block
       // Mind Matters Memphis title
@@ -30,7 +32,7 @@ export const Home = () => {
       <Title />
       <div className="bg-dust lg:grid lg:grid-cols-4">
         <div className="hidden lg:block col-span-2 p-12">
-          <img src={calm} alt="Young East Asian Woman in Cozy Work Environment" className="object-cover rounded-xl"/>
+          <img src={calm} alt="Young East Asian Woman in Cozy Work Environment" className="h-full object-cover rounded-xl"/>
         </div>
         <div className="text-2xl p-4 pb-12 flex flex-col justify-center text-center lg:col-span-2 lg:text-4xl lg:text-start">
           <h2 className="text-midnight py-4">Our Mission</h2>
@@ -38,7 +40,7 @@ export const Home = () => {
         </div>
       </div>
       <div className="bg-midnight p-4 lg:grid lg:grid-cols-4">
-        <div className="flex flex-col justify-center lg:col-span-2 lg:px-8">
+        <div className="flex flex-col justify-center lg:col-span-2 lg:p-8">
           <h2 className="text-sand py-4 self-center lg:text-4xl">Why Choose Us</h2>
           <ul className="">
             {
@@ -46,8 +48,16 @@ export const Home = () => {
             }
           </ul>
         </div>
-        <div className="hidden lg:block col-span-2 p-12">
-          <img src={contemplative} alt="Young Black Man in Contemplation" className="object-cover rounded-xl"/>
+        <div className="hidden col-span-2 p-12 lg:flex items-center">
+          <img src={contemplative} alt="Young Black Man in Contemplation" className="h-full object-cover rounded-xl"/>
+        </div>
+      </div>
+      <div className="grid grid-cols-4 justify-center">
+        <div className="col-start-2 col-span-2">
+            <h2>Transforming Cognitive Health</h2>
+            <img src={portrait} alt="Dr. Gould professional headshot" className="h-64 w-64 object-cover rounded-full"/>
+            <p>Dr. Gould has been providing excellent care in clinical neuropsychology for the better part of two decades.</p>
+            <Link to="/meet-dr-gould">Learn More</Link>
         </div>
       </div>
     </div>
