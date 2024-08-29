@@ -14,12 +14,12 @@ export const Nav = () => {
     <header className="w-full sticky bg-midnight text-sand flex justify-between items-center shadow-sm group" role="banner">
       <div className="">
         <Link to="/" className="flex justify-center items-center gap-2 p-2 md:p-4 sm:ml-4" aria-label="Home">
-          <MindLogo className="h-10 w-10" title="Mind Matters logo - outline of brain with grey matter" role="Icon image"/>
+          <MindLogo className="h-10 w-10" title="Mind Matters Logo" role="Icon image"/>
           <span className="font-bold md:text-xl">Mind Matters Memphis</span>
         </Link>
       </div>
       <div className="flex-grow"></div>
-      <nav className="h-full w-full fixed top-16 bg-midnight overflow-hidden max-h-0 transition-all duration-500 ease-out group-has-[:checked]:max-h-full lg:h-fit lg:w-fit lg:max-h-full lg:static xl-pr-4" role="navigation" aria-label="Main" >
+      <nav className="h-full w-full fixed top-16 bg-midnight overflow-hidden max-h-0 transition-all duration-500 ease-out group-has-[:checked]:max-h-full lg:h-fit lg:w-fit lg:max-h-full lg:static xl-pr-4" role="navigation" aria-label="Main navigation" >
         <ul className="list-none lg:flex lg:justify-end items-center" onClick={handleListClick}>
           <li>
             <Link to="/meet-dr-gould" className={navLinkStyle} aria-current={location?.pathname === "/meet-dr-gould"}>About</Link>
