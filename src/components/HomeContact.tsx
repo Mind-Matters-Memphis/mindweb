@@ -8,27 +8,30 @@ export const HomeContact = () => {
   const contactItems = [
     {
       icon: Phone,
+      imgName: "Phone icon",
       text: "901-555-5555",
       url: "tel:+19015555555",
     },
     {
       icon: Email,
+      imgName: "Email icon",
       text: "gould@gouldmail.com",
       url: "mailto:gould@gouldmail.com",
     },
     {
       icon: Location,
+      imgName: "Location icon",
       text: "1234 Main St, Memphis, TN 38103",
       url: "https://maps.app.goo.gl/gebxzX7GRH19RUeA8",
     },
   ];
   return (
     <div>
-      <h2 className="text-4xl text-center p-4">Contact</h2>
+      <h2 className="text-4xl text-center p-4">Get in Touch</h2>
       <div className="flex flex-col items-center p-4">
         <div>
           {
-            contactItems.map((item, index) => <ContactListItem key={index} icon={item.icon} text={item.text} url={item.url}/>)
+            contactItems.map((item, index) => <ContactListItem key={index} icon={item.icon} imgName={item.imgName} text={item.text} url={item.url}/>)
           }
         </div>
       </div>
