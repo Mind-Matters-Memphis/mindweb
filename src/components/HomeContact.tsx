@@ -26,7 +26,7 @@ export const HomeContact = () => {
     },
   ];
   return (
-    <div>
+    <div className="bg-midnight text-sand p-4">
       <h2 className="text-4xl text-center p-4">Get in Touch</h2>
       <div className="flex flex-col items-center p-4">
         <div>

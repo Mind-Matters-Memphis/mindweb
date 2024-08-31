@@ -6,6 +6,9 @@ import { ListItem } from "../components/HomeListItem";
 import { Link } from "react-router-dom";
 import { IoIosArrowForward as Arrow } from "react-icons/io";
 import { HomeContact } from "../components/HomeContact";
+import { RiMentalHealthLine as Mental } from "react-icons/ri";
+import { FaNotesMedical as Notes } from "react-icons/fa";
+import { FaPersonWalkingWithCane as Old } from "react-icons/fa6";
 
 export const Home = () => {
       // background image of initial block
@@ -17,17 +20,23 @@ export const Home = () => {
         {
           title: "Clinical Expertise",
           text: "Dr. Gould has been a neuropsychological clinician for 15 years.",
-          url: "/clinical-neuropsychology"
+          url: "/clinical-neuropsychology",
+          icon: Mental,
+          imgText: "Mental Health icon",
         },
         {
           title: "Forensic Evaluations",
           text: "Specialized forensic evaluations for legal and court-related matters.",
-          url: "/forensic-evaluations"
+          url: "/forensic-evaluations",
+          icon: Notes,
+          imgText: "Medical Notes icon",
         },
         {
           title: "Cognitive Aging",
           text: "Support and strategies for healthy cognitive aging and memory care.",
-          url: "/cognitive-aging"
+          url: "/cognitive-aging",
+          icon: Old,
+          imgText: "Older Adult icon",
         }
       ]
   return ( 
@@ -47,7 +56,7 @@ export const Home = () => {
           <h2 className="text-sand py-4 self-center lg:text-4xl">Why Choose Us</h2>
           <ul className="grid grid-rows-3">
             {
-              listItems.map((item, index) => <ListItem key={index} title={item.title} text={item.text}/>)
+              listItems.map((item, index) => <ListItem key={index} title={item.title} text={item.text} icon={item.icon} imgText={item.imgText} />)
             }
           </ul>
         </div>
