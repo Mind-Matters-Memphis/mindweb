@@ -19,16 +19,18 @@ export const HomeContact = () => {
     {
       icon: Location,
       text: "1234 Main St, Memphis, TN 38103",
-      isEmail: false,
+      url: "https://maps.app.goo.gl/gebxzX7GRH19RUeA8",
     },
   ];
   return (
     <div>
       <h2 className="text-4xl text-center p-4">Contact</h2>
       <div className="flex flex-col items-center p-4">
-        {
-          contactItems.map((item, index) => <ContactListItem key={index} icon={item.icon} text={item.text} isEmail={item.isEmail}/>)
-        }
+        <div>
+          {
+            contactItems.map((item, index) => <ContactListItem key={index} icon={item.icon} text={item.text} url={item.url}/>)
+          }
+        </div>
       </div>
     </div>
   );
