@@ -56,7 +56,7 @@ export const Home = () => {
           <h2 className="text-sand py-4 self-center lg:text-4xl">Why Choose Us</h2>
           <ul className="grid grid-rows-3">
             {
-              listItems.map((item, index) => <ListItem key={index} title={item.title} text={item.text} icon={item.icon} imgText={item.imgText} />)
+              listItems.map((item, index) => <ListItem key={index} title={item.title} text={item.text} icon={item.icon} imgText={item.imgText} url={item.url} />)
             }
           </ul>
         </div>
