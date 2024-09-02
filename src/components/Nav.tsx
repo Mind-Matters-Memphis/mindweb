@@ -28,7 +28,7 @@ export const Nav = () => {
             <Link to="/clinical-neuropsychology" className={navLinkStyle} aria-current={location?.pathname === "/clinical-neuropsychology"}>Clinical Neuropsychology</Link>
           </li>
           <li>
-            <Link to="/forensic-services" className={navLinkStyle} aria-current={location?.pathname === "/forensic-services"}>Forensic Evaluations</Link>
+            <Link to="/forensic-evaluations" className={navLinkStyle} aria-current={location?.pathname === "/forensic-evaluations"}>Forensic Evaluations</Link>
           </li>
           <li>
             <Link to="/contact" className={navLinkStyle} aria-current={location?.pathname === "/contact"}>Contact</Link>
