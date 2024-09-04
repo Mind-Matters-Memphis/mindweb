@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-display: swap;
+    src: url(../src/assets/fonts/NotoSerif.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Climate Crisis';
+    font-style: normal;
+    font-display: swap;
+    src: url(../src/assets/fonts/ClimateCrisis.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Reem Kufi';
+    font-style: normal;
+    font-display: swap;
+    src: url(../src/assets/fonts/ReemKufi.ttf) format('truetype');
+  }
+}
+
 *{
   margin: 0;
   padding: 0;

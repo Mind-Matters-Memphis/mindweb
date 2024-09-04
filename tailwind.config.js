@@ -10,6 +10,11 @@ export default {
       inlet: '#4D7EA8',
       midnight: '#272932'
     },
+    fontFamily: {
+      'display': ['Climate Crisis', 'sans-serif'],
+      'altdisplay': ['Reem Kufi', 'sans-serif'],
+      'body': ['Noto Serif', 'serif'],
+    },
     extend: {},
   },
   plugins: [],
