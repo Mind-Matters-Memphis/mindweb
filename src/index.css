@@ -4,16 +4,34 @@
 
 @layer base {
   @font-face {
-    font-family: 'Noto Serif';
+    font-family: 'Playfair';
     font-style: normal;
     font-display: swap;
-    src: url(../src/assets/fonts/NotoSerif.ttf) format('truetype');
+    src: url(../src/assets/fonts/Playfair.ttf) format('truetype');
   }
   @font-face {
-    font-family: 'Climate Crisis';
+    font-family: 'Playfair Italic';
+    font-style: italic;
+    font-display: swap;
+    src: url(../src/assets/fonts/PlayfairItalic.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Merriweather';
     font-style: normal;
     font-display: swap;
-    src: url(../src/assets/fonts/ClimateCrisis.ttf) format('truetype');
+    src: url(../src/assets/fonts/MerriweatherRegular.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-display: swap;
+    src: url(../src/assets/fonts/RobotoSlab.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-display: swap;
+    src: url(../src/assets/fonts/LobsterRegular.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Reem Kufi';

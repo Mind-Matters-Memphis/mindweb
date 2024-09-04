@@ -11,9 +11,9 @@ export default {
       midnight: '#272932'
     },
     fontFamily: {
-      'display': ['Climate Crisis', 'sans-serif'],
+      'display': ['Lobster', 'sans-serif'],
       'altdisplay': ['Reem Kufi', 'sans-serif'],
-      'body': ['Noto Serif', 'serif'],
+      'body': ['Playfair', 'serif'],
     },
     extend: {},
   },
