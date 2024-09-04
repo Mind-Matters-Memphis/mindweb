@@ -46,14 +46,14 @@ export const Home = () => {
         <div className="hidden lg:block col-span-2 p-12">
           <img src={calm} alt="Young East Asian Woman in Cozy Work Environment" className="h-full object-cover rounded-xl"/>
         </div>
-        <div className="text-2xl p-4 pb-12 flex flex-col justify-center text-center font-display lg:col-span-2 lg:text-4xl lg:text-start">
-          <h2 className="text-midnight py-4 uppercase">Our Mission</h2>
-          <p className="text-inlet font-extrabold">Providing comprehensive neuropsychological care to enhance cognitive health and well being.</p>
+        <div className="text-2xl p-4 pb-12 flex flex-col justify-center text-center lg:col-span-2 lg:text-6xl lg:text-start">
+          <h2 className="text-midnight py-4 font-display">Our Mission</h2>
+          <p className="text-inlet font-extrabold font-display">Providing comprehensive neuropsychological care to enhance cognitive health and well being.</p>
         </div>
       </div>
       <div className="bg-midnight p-4 lg:grid lg:grid-cols-4">
         <div className="flex flex-col justify-center lg:col-span-2 lg:p-8">
-          <h2 className="text-sand py-4 self-center lg:text-4xl">Why Choose Us</h2>
+          <h2 className="text-sand py-4 self-center lg:text-4xl font-display">Why Choose Us</h2>
           <ul className="grid grid-rows-3">
             {
               listItems.map((item, index) => <ListItem key={index} title={item.title} text={item.text} icon={item.icon} imgText={item.imgText} url={item.url} />)
