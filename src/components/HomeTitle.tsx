@@ -31,7 +31,7 @@ export const Title = () => {
           </li>
           <li>
             <Arrow className="inline-block text-coral" />
-            <Link to="/forensic-psychology">Forensic Psychology</Link>
+            <Link to="/forensic-evaluations">Forensic Evaluations</Link>
           </li>
         </ul>
       </div>
