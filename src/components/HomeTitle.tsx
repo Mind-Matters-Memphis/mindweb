@@ -7,8 +7,8 @@ export const Title = () => {
     <div className="h-dvh lg:h-2/3 relative">
       <img src={contemplative} alt="Contemplative Woman, Head in her Hands, in Golden Light" className="h-full object-cover"/>
       <div className="absolute top-1/4 left-4 text-center bg-midnight bg-opacity-85 p-8 px-6 rounded-md">
-        <h1 className="text-4xl font-bold text-sand flex gap-2 underline decoration-coral decoration-double pb-4" title="Mind Matters Memphis">Mind Matters Memphis</h1>
-        <ul>
+        <h1 className="text-4xl font-bold text-sand flex gap-2 underline decoration-coral decoration-double pb-4 font-altdisplay" title="Mind Matters Memphis">Mind Matters Memphis</h1>
+        <ul className="">
           <li>
             <Arrow className="inline-block text-coral" />
             <Link to="/clinical-neuropsychology">Clinical Neuropsychology</Link>
