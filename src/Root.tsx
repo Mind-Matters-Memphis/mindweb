@@ -5,7 +5,7 @@ import { Footer } from "./components/Footer";
 export const Root = () => {
   // <Outlet /> is where the child routes are rendered
   return ( 
-    <div className="font-body">
+    <div className="font-accessbody">
       <Nav />
       <main>
         <Outlet />

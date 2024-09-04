@@ -47,8 +47,8 @@ export const Home = () => {
           <img src={calm} alt="Young East Asian Woman in Cozy Work Environment" className="h-full object-cover rounded-xl"/>
         </div>
         <div className="text-2xl p-4 pb-12 flex flex-col justify-center text-center lg:col-span-2 lg:text-6xl lg:text-start">
-          <h2 className="text-midnight py-4 font-display">Our Mission</h2>
-          <p className="text-inlet font-extrabold font-display">Providing comprehensive neuropsychological care to enhance cognitive health and well being.</p>
+          <h2 className="text-midnight py-4 font-accessdisplay">Our Mission</h2>
+          <p className="text-inlet font-extrabold font-accessdisplay">Providing comprehensive neuropsychological care to enhance cognitive health and well being.</p>
         </div>
       </div>
       <div className="bg-midnight p-4 lg:grid lg:grid-cols-4">
