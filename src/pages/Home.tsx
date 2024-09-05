@@ -1,4 +1,5 @@
 import { Title } from "../components/HomeTitle";
+import { HomeLanding } from "../components/HomeLanding";
 import calm from "../assets/imgs/Calm.jpg"
 import contemplative from "../assets/imgs/InDeepThought.jpg"
 import portrait from "../assets/imgs/Portrait.jpg"
@@ -41,7 +42,7 @@ export const Home = () => {
       ]
   return ( 
     <div>
-      <Title />
+      <HomeLanding />
       <div className="bg-dust lg:grid lg:grid-cols-4">
         <div className="hidden lg:block col-span-2 p-12">
           <img src={calm} alt="Young East Asian Woman in Cozy Work Environment" className="h-full object-cover rounded-xl"/>
