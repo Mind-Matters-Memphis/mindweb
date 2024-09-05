@@ -1,4 +1,5 @@
-import profiles from "../assets/imgs/Profiles.jpg"
+// import profiles from "../assets/imgs/Profiles.jpg"
+import waiting from "../assets/imgs/WomanAtTable.jpg"
 
 export const HomeLanding = () => {
   return ( 
@@ -11,7 +12,7 @@ export const HomeLanding = () => {
         </h1>
       </div>
       <div className="col-start-4 col-span-2 inherit">
-        <img src={profiles} alt="profiles" className="h-[32rem] w-full object-cover"/>
+        <img src={waiting} alt="profiles" className="h-[32rem] w-full object-cover"/>
       </div>
     </div>
   );
