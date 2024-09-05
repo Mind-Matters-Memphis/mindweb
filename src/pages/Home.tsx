@@ -1,15 +1,10 @@
-import { Title } from "../components/HomeTitle";
+// import { Title } from "../components/HomeTitle";
 import { HomeLanding } from "../components/HomeLanding";
-import calm from "../assets/imgs/Calm.jpg"
-import contemplative from "../assets/imgs/InDeepThought.jpg"
+// import { HomeChoose } from "../components/HomeChoose";
 import portrait from "../assets/imgs/Portrait.jpg"
-import { ListItem } from "../components/HomeListItem";
 import { Link } from "react-router-dom";
 import { IoIosArrowForward as Arrow } from "react-icons/io";
 import { HomeContact } from "../components/HomeContact";
-import { RiMentalHealthLine as Mental } from "react-icons/ri";
-import { FaNotesMedical as Notes } from "react-icons/fa";
-import { FaPersonWalkingWithCane as Old } from "react-icons/fa6";
 
 export const Home = () => {
       // background image of initial block
@@ -17,52 +12,18 @@ export const Home = () => {
       // buttons for Learn More and Contact
       // block for Our Mission
       //
-      const listItems = [
-        {
-          title: "Clinical Expertise",
-          text: "Dr. Gould has been a neuropsychological clinician for 15 years.",
-          url: "/clinical-neuropsychology",
-          icon: Mental,
-          imgText: "Mental Health icon",
-        },
-        {
-          title: "Forensic Evaluations",
-          text: "Specialized forensic evaluations for legal and court-related matters.",
-          url: "/forensic-evaluations",
-          icon: Notes,
-          imgText: "Medical Notes icon",
-        },
-        {
-          title: "Cognitive Aging",
-          text: "Support and strategies for healthy cognitive aging and memory care.",
-          url: "/cognitive-aging",
-          icon: Old,
-          imgText: "Older Adult icon",
-        }
-      ]
+
   return ( 
     <div>
       <HomeLanding />
-      <div className="bg-dust lg:grid lg:grid-cols-4">
-        <div className="hidden lg:block col-span-2 p-12">
-          <img src={calm} alt="Young East Asian Woman in Cozy Work Environment" className="h-full object-cover rounded-xl"/>
+      <div className="bg-dust lg:grid lg:grid-cols-4 h-96">
+        <div className="hidden lg:block max-w-96 bg-inlet rounded-tr-full"></div>
+        <div className="hidden lg:flex justify-center items-end">
+          <div className="bg-coral h-32 w-32 rotate-45 rounded-full"></div>
         </div>
-        <div className="text-2xl p-4 pb-12 flex flex-col justify-center text-center lg:col-span-2 lg:text-6xl lg:text-start">
-          <h2 className="text-midnight py-4 font-accessdisplay">Our Mission</h2>
+        <div className="text-2xl p-4 pb-12 flex flex-col justify-center text-center lg:col-span-2 lg:text-4xl lg:text-start">
+          <h2 className="text-midnight py-4 font-accessdisplay uppercase">Our Mission</h2>
           <p className="text-inlet font-extrabold font-accessdisplay">Providing comprehensive neuropsychological care to enhance cognitive health and well being.</p>
-        </div>
-      </div>
-      <div className="bg-midnight p-4 lg:grid lg:grid-cols-4">
-        <div className="flex flex-col justify-center lg:col-span-2 lg:p-8">
-          <h2 className="text-sand py-4 self-center lg:text-4xl font-display">Why Choose Us</h2>
-          <ul className="grid grid-rows-3">
-            {
-              listItems.map((item, index) => <ListItem key={index} title={item.title} text={item.text} icon={item.icon} imgText={item.imgText} url={item.url} />)
-            }
-          </ul>
-        </div>
-        <div className="hidden col-span-2 p-12 lg:flex items-center">
-          <img src={contemplative} alt="Young Black Man in Contemplation" className="h-full object-cover rounded-xl"/>
         </div>
       </div>
       <div className="grid grid-cols-4 justify-center bg-sage text-midnight py-4">
