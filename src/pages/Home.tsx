@@ -5,6 +5,7 @@ import portrait from "../assets/imgs/Portrait.jpg"
 import { Link } from "react-router-dom";
 import { IoIosArrowForward as Arrow } from "react-icons/io";
 import { HomeContact } from "../components/HomeContact";
+import { HomeServices } from "../components/HomeServices";
 
 export const Home = () => {
       // background image of initial block
@@ -26,6 +27,7 @@ export const Home = () => {
           <p className="text-inlet font-extrabold font-accessdisplay">Providing comprehensive neuropsychological care to enhance cognitive health and well being.</p>
         </div>
       </div>
+      <HomeServices />
       <div className="grid grid-cols-4 justify-center bg-sage text-midnight py-4">
         <div className="col-start-2 col-span-2 flex flex-col items-center p-4">
             <h2 className="text-4xl p-4">Transforming Cognitive Health</h2>
