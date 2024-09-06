@@ -5,6 +5,7 @@ type Service = {
   text: string;
   url: string;
   linkText: string;
+  style: string;
   icon: IconType;
   iconAlt: string;
   rotation?: number;
@@ -20,8 +21,24 @@ export const ServiceBlock = ({ invert, service }: Props) => {
   const col2 = invert ? " col-start-1" : " col-start-3";
 
   return ( 
-    <div className="grid grid-cols-3">
-      <div className={"bg-midnight col-span-2 row-start-1 grid justify-center items-center" + col1}>
+    <div className={"z-20 " + service.style}>
+      <div className={"bg-midnight grid justify-center items-center w-fit p-8 rounded-3xl"}>
+        <div>
+          <h2 className="text-4xl font-accessdisplay">{service.title}</h2>
+        </div>
+        <div>
+          <p className="text-xl">{service.text}</p>
+        </div>
+        <ul>
+          <li>{service.title}</li>
+          <li>{service.title}</li>
+          <li>{service.title}</li>
+        </ul>
+        <div className="flex justify-center">
+          <Link to={service.url} className="text-2xl border-2 p-4 m-4 border-coral rounded-xl">{service.linkText}</Link>
+        </div>
+      </div>
+      {/* <div className={"bg-midnight grid justify-center items-center"}>
         <div>
           <h2 className="text-4xl font-accessdisplay">{service.title}</h2>
         </div>
@@ -31,12 +48,12 @@ export const ServiceBlock = ({ invert, service }: Props) => {
         <div className="flex justify-center">
           <Link to={service.url} className="text-2xl border-2 p-4 m-4 border-coral rounded-xl">{service.linkText}</Link>
         </div>
-      </div>
-      <div className={"bg-inlet row-start-1" + col2}>
+      </div> */}
+      {/* <div className={"bg-inlet row-start-1" + col2}>
         <div className="h-full">
           {service.icon({className: iconStyle, "aria-label": service.iconAlt, style: {transform: `rotate(${service.rotation}deg)`}})}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

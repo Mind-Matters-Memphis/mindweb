@@ -27,9 +27,6 @@ export const Home = () => {
           <p className="text-inlet font-extrabold font-accessdisplay">Providing comprehensive neuropsychological care to enhance cognitive health and well being.</p>
         </div>
       </div>
-      <div className="bg-midnight">
-        <div className="h-[384px] w-[384px] rounded-br-full bg-inlet"></div>
-      </div>
       <HomeServices />
       <div className="grid grid-cols-4 justify-center bg-sage text-midnight py-4">
         <div className="col-start-2 col-span-2 flex flex-col items-center p-4">
