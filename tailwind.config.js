@@ -18,7 +18,17 @@ export default {
       'accessdisplay': ["Rockwell", "Times New Roman", "Times", "serif"],
       'accessbody': ["Tahoma", "Times New Roman", "Times", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      borderWidth: {
+        '12': '12.5cqh',
+        '16': '16.65cqh',
+        '25': '25cqh',
+        '33': '33.3cqh',
+        '50': '50cqh',
+        '75': '75cqh',
+        '100': '100cqh',
+      },
+    },
   },
   plugins: [],
 }
