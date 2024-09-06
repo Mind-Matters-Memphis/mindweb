@@ -18,7 +18,7 @@ export const Home = () => {
     <div>
       <HomeLanding />
       <div className="bg-dust lg:grid lg:grid-cols-4 h-96">
-        <div className="hidden lg:block max-w-96 bg-inlet rounded-tr-full"></div>
+        <div className="hidden lg:block w-[384px] bg-inlet rounded-tr-full"></div>
         <div className="hidden lg:flex justify-center items-end">
           <div className="bg-coral h-32 w-32 rotate-45 rounded-full"></div>
         </div>
@@ -26,6 +26,9 @@ export const Home = () => {
           <h2 className="text-midnight py-4 font-accessdisplay uppercase">Our Mission</h2>
           <p className="text-inlet font-extrabold font-accessdisplay">Providing comprehensive neuropsychological care to enhance cognitive health and well being.</p>
         </div>
+      </div>
+      <div className="bg-midnight">
+        <div className="h-[384px] w-[384px] rounded-br-full bg-inlet"></div>
       </div>
       <HomeServices />
       <div className="grid grid-cols-4 justify-center bg-sage text-midnight py-4">

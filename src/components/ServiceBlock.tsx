@@ -1,15 +1,21 @@
 import { Link } from "react-router-dom";
+import { IconType } from "react-icons";
 type Service = {
   title: string;
   text: string;
   url: string;
   linkText: string;
+  icon: IconType;
+  iconAlt: string;
+  rotation?: number;
 }
 type Props = {
   invert?: boolean;
   service: Service;
 }
 export const ServiceBlock = ({ invert, service }: Props) => {
+
+  const iconStyle = `h-full w-auto text-coral`
   const col1 = invert ? " col-start-2" : " col-start-1";
   const col2 = invert ? " col-start-1" : " col-start-3";
 
@@ -27,7 +33,9 @@ export const ServiceBlock = ({ invert, service }: Props) => {
         </div>
       </div>
       <div className={"bg-inlet row-start-1" + col2}>
-      {/* abstract art? */}
+        <div className="h-full">
+          {service.icon({className: iconStyle, "aria-label": service.iconAlt, style: {transform: `rotate(${service.rotation}deg)`}})}
+        </div>
       </div>
     </div>
   );
