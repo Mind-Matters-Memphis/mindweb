@@ -60,9 +60,8 @@ export const HomeServices = () => {
     }
   ]
   return ( 
-    <div className="bg-dust relative grid min-h-dvh gap-10 justify-center xl:justify-normal ">
-      <div className="h-[384px] w-[384px] rounded-br-full bg-inlet absolute top-0 left-0"></div>
-      <div className="absolute bottom-0 right-0 border-b-0 border-dust border-t-75 border-r-75 border-r-coral z-10"></div>
+    <div className="pb-48 bg-dust relative grid gap-10 justify-center xl:justify-normal ">
+      <div className="absolute bottom-0 right-0 border-b-0 border-dust border-t-50 border-r-50 md:border-t-75 md:border-r-75 border-r-coral z-10"></div>
       {services.map((service, index) => (
         <ServiceBlock key={index} service={service} invert={index % 2 === 0} />
       ))}
