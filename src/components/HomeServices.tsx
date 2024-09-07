@@ -16,7 +16,7 @@ export const HomeServices = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
       ],
       linkText: "Learn More",
-      style: "justify-self-end mr-24 mt-10 border-inlet from-inlet/75",
+      style: "xl:justify-self-end xl:mr-24 mt-10 border-inlet from-inlet/75",
       btnStyle: "border-inlet/75",
       color: "inlet",
       icon: Exo,
@@ -33,7 +33,7 @@ export const HomeServices = () => {
         "Lorem ipsum list item",
       ],
       linkText: "Learn More",
-      style: "justify-self-center border-sage from-sage/75",
+      style: "xl:justify-self-center border-sage from-sage/75",
       btnStyle: "border-sage/90",
       color: "sage",
       icon: Cloud,
@@ -51,7 +51,7 @@ export const HomeServices = () => {
         "Lorem ipsum list item",
       ],
       linkText: "Learn More",
-      style: "justify-self-start ml-24 mb-10 border-coral from-coral/50",
+      style: "xl:justify-self-start xl:ml-24 mb-10 border-coral from-coral/50",
       btnStyle: "border-coral/70",
       color: "coral",
       icon: Honeycomb,
@@ -60,12 +60,7 @@ export const HomeServices = () => {
     }
   ]
   return ( 
-    // <div className="grid grid-rows-3 h-dvh">
-    //   {services.map((service, index) => (
-    //     <Block key={index} service={service} invert={index % 2 === 0} />
-    //   ))}
-    // </div>
-    <div className="bg-dust relative grid min-h-dvh gap-10 ">
+    <div className="bg-dust relative grid min-h-dvh gap-10 justify-center xl:justify-normal ">
       <div className="h-[384px] w-[384px] rounded-br-full bg-inlet absolute top-0 left-0"></div>
       <div className="absolute bottom-0 right-0 border-b-0 border-dust border-t-75 border-r-75 border-r-coral z-10"></div>
       {services.map((service, index) => (
