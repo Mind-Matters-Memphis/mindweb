@@ -39,6 +39,9 @@
     font-display: swap;
     src: url(../src/assets/fonts/ReemKufi.ttf) format('truetype');
   }
+  :root {
+    --radius: 0.5rem;
+  }
 }
 
 *{
