@@ -21,13 +21,15 @@ export default {
   	},
   	extend: {
   		borderWidth: {
+        '6': '6cqh',
   			'12': '12.5cqh',
   			'16': '16.65cqh',
   			'25': '25cqh',
   			'33': '33.3cqh',
   			'50': '50cqh',
   			'75': '75cqh',
-  			'100': '100cqh'
+  			'100': '100cqh',
+        '100w': '100cqw'
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
