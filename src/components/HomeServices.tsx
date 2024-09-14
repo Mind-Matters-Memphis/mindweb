@@ -6,7 +6,7 @@ import { SiH3 as Honeycomb } from "react-icons/si";
 export const HomeServices = () => {
   const services = [
     {
-      title: "Clinical Neuropsychology",
+      title: "Clinical Evaluations",
       text: "Comprehensive neuropsychological evaluations for individuals with cognitive concerns.",
       url: "/clinical-neuropsychology",
       points: [
@@ -41,7 +41,7 @@ export const HomeServices = () => {
       rotation: 65,
     },
     {
-      title: "Memory Care",
+      title: "Memory Care Assessments",
       text: "Specialized care for individuals with memory disorders and their families.",
       url: "/memory-care",
       points: [
