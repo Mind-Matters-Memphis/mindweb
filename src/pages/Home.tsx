@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { IoIosArrowForward as Arrow } from "react-icons/io";
 import { HomeContact } from "../components/HomeContact";
 import { HomeServices } from "../components/HomeServices";
+import { HomeReferral } from "@/components/HomeReferral";
 
 export const Home = () => {
       // background image of initial block
@@ -44,6 +45,7 @@ export const Home = () => {
             </Link>
         </div>
       </div>
+      <HomeReferral />
       <HomeContact />
     </div>
   );
