@@ -16,7 +16,7 @@ export const HomeServices = () => {
       ],
       linkText: "Learn More",
       // style: "xl:justify-self-end xl:mr-24 mt-10 border-inlet from-inlet/75",
-      style: "mt-10 border-inlet from-inlet/75",
+      style: "border-inlet from-inlet/75",
       btnStyle: "border-inlet/75",
       color: "inlet",
       icon: Exo,
@@ -58,9 +58,11 @@ export const HomeServices = () => {
       rotation: 75,
     }
   ]
+  // commented out an abstract triangle
+  {/* <div className="absolute bottom-0 right-0 border-b-0 border-dust border-t-50 border-r-50 md:border-t-75 md:border-r-75 border-r-coral z-10"></div> */}
+
   return ( 
-    <div className="pb-48 bg-dust relative grid gap-10 justify-center ">
-      <div className="absolute bottom-0 right-0 border-b-0 border-dust border-t-50 border-r-50 md:border-t-75 md:border-r-75 border-r-coral z-10"></div>
+    <div className="pb-12 bg-dust relative grid gap-10 justify-center ">
       {services.map((service, index) => (
         <ServiceBlock key={index} service={service} invert={index % 2 === 0} />
       ))}

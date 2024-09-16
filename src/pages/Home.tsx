@@ -24,17 +24,17 @@ export const Home = () => {
           <div className="bg-coral h-32 w-32 rounded-full"></div>
         </div>
         <div className="mt-40 md:mt-16 text-2xl p-4 sm:pb-12 flex flex-col gap-4 justify-center sm:col-start-2 lg:col-start-3 sm:col-span-2 lg:text-4xl lg:text-start lg:mt-10">
-          <h2 className="text-inlet text-3xl py-4 font-accessdisplay font-bold uppercase text-center">Optimizing Brain Health</h2>
-          <p className="text-midnight font-bold font-accessdisplay">Mind Matters Memphis provides clinical and forensic neuropsychological evaluations for adult patients with stroke, traumatic brain injury (TBI), epilepsy, or other neurocognitive concerns. We partner with patients to optimize their cognitive wellness.</p>
+          <h2 className="text-inlet text-6xl py-4 font-altdisplay font-bold uppercase text-center flex flex-col justify-center"><span>Optimizing </span><span>Brain Health</span></h2>
+          <p className="text-midnight font-bold font-accessbody">Mind Matters Memphis provides clinical and forensic neuropsychological evaluations for adult patients with stroke, traumatic brain injury (TBI), epilepsy, or other neurocognitive concerns. We partner with patients to optimize their cognitive wellness.</p>
           <p className="text-midnight font-bold font-accessdisplay">Referring physicians and therapists can expect (insert quote here about process) through the entirety of the patient's care journey. </p>
         </div>
       </div>
       <div className="relative min-h-48 bg-dust">
         <div className="hidden md:block absolute top-0 right-0 border-t-[96px] border-t-dust border-b-inlet border-b-0 border-r-100w border-r-inlet z-10"></div>
-        <div className="hidden md:block absolute bottom-0 left-0 border-b-[96px] border-coral border-t-0 border-l-100w border-l-inlet z-10"></div>
+        <div className="hidden md:block absolute bottom-0 left-0 border-b-[96px] border-sage border-t-0 border-l-100w border-l-inlet z-10"></div>
       </div>
       <div>
-        <h2 className="text-inlet text-6xl py-12 font-accessdisplay font-bold uppercase text-center">What We Offer</h2>
+        <h2 className="text-inlet uppercase text-6xl py-16 font-altdisplay font-bold text-center">What We Offer</h2>
         <HomeServices />
       </div>
       
