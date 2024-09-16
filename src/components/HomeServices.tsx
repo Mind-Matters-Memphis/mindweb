@@ -12,11 +12,11 @@ export const HomeServices = () => {
       points: [
         "Lorem ipsum list item",
         "Lorem ipsum list item",
-        "Lorem ipsum list item",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
       ],
       linkText: "Learn More",
-      style: "xl:justify-self-end xl:mr-24 mt-10 border-inlet from-inlet/75",
+      // style: "xl:justify-self-end xl:mr-24 mt-10 border-inlet from-inlet/75",
+      style: "mt-10 border-inlet from-inlet/75",
       btnStyle: "border-inlet/75",
       color: "inlet",
       icon: Exo,
@@ -33,7 +33,7 @@ export const HomeServices = () => {
         "Lorem ipsum list item",
       ],
       linkText: "Learn More",
-      style: "xl:justify-self-center border-sage from-sage/75",
+      style: "border-sage from-sage/75",
       btnStyle: "border-sage/90",
       color: "sage",
       icon: Cloud,
@@ -47,11 +47,10 @@ export const HomeServices = () => {
       points: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
         "Lorem ipsum list item",
-        "Lorem ipsum list item",
-        "Lorem ipsum list item",
       ],
       linkText: "Learn More",
-      style: "xl:justify-self-start xl:ml-24 mb-10 border-coral from-coral/50",
+      // style: "xl:justify-self-start xl:ml-24 mb-10 border-coral from-coral/50",
+      style: "mb-10 border-coral from-coral/50",
       btnStyle: "border-coral/70",
       color: "coral",
       icon: Honeycomb,
@@ -60,7 +59,7 @@ export const HomeServices = () => {
     }
   ]
   return ( 
-    <div className="pb-48 bg-dust relative grid gap-10 justify-center xl:justify-normal ">
+    <div className="pb-48 bg-dust relative grid gap-10 justify-center ">
       <div className="absolute bottom-0 right-0 border-b-0 border-dust border-t-50 border-r-50 md:border-t-75 md:border-r-75 border-r-coral z-10"></div>
       {services.map((service, index) => (
         <ServiceBlock key={index} service={service} invert={index % 2 === 0} />

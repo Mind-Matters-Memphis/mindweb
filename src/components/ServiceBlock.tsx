@@ -19,10 +19,10 @@ type Props = {
   service: Service;
 }
 export const ServiceBlock = ({ service }: Props) => {
-
+  // remove 
   return ( 
     <div className={"py-4 sm:px-2 md:p-4 lg:p-8 border-2 rounded-3xl shadow-2xl max-w-3xl bg-gradient-to-tl to-dust z-20 " + service.style}>
-      <div className={"bg-dust xl:bg-dust/75 text-midnight shadow-inner grid justify-center items-center w-fit p-2 sm:p-4 lg:p-8 rounded-3xl"}>
+      <div className={"bg-dust text-midnight shadow-inner grid justify-center items-center w-inherit p-2 sm:p-4 lg:p-8 rounded-3xl"}>
         <div>
           <h2 className="text-4xl font-bold font-accessdisplay py-4 text-center">{service.title}</h2>
         </div>

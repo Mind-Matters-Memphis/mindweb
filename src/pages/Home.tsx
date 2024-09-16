@@ -16,7 +16,7 @@ export const Home = () => {
       //
 
   return ( 
-    <div>
+    <div className="bg-dust">
       <HomeLanding />
       <div className="bg-dust grid md:grid-cols-4 md:min-h-96 justify-end relative overflow-visible z-20">
         <div className="h-48 md:h-96 w-48 lg:block lg:h-[768px] lg:w-96 bg-inlet rounded-br-full md:rounded-r-full absolute top-0 left-0 z-20"></div>
@@ -33,7 +33,11 @@ export const Home = () => {
         <div className="hidden md:block absolute top-0 right-0 border-t-[96px] border-t-dust border-b-inlet border-b-0 border-r-100w border-r-inlet z-10"></div>
         <div className="hidden md:block absolute bottom-0 left-0 border-b-[96px] border-coral border-t-0 border-l-100w border-l-inlet z-10"></div>
       </div>
-      <HomeServices />
+      <div>
+        <h2 className="text-inlet text-6xl py-12 font-accessdisplay font-bold uppercase text-center">What We Offer</h2>
+        <HomeServices />
+      </div>
+      
       <div className="grid grid-cols-4 justify-center bg-sage text-midnight py-4">
         <div className="col-start-2 col-span-2 flex flex-col items-center p-4">
             <h2 className="text-4xl p-4">Transforming Cognitive Health</h2>
