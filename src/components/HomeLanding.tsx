@@ -1,18 +1,13 @@
-// import profiles from "../assets/imgs/Profiles.jpg"
-import waiting from "../assets/imgs/WomanAtTable.jpg"
+import logo from "../assets/imgs/logo/logoColor.png"
 
 export const HomeLanding = () => {
   return ( 
-    <div className="bg-midnight w-full h-1/4 font-accessbody grid grid-cols-5">
-      <div className="col-start-1 col-span-3 self-center justify-self-center">
-        <h1 className="text-4xl flex flex-col gap-2">
-          <span className="font-extrabold font-accessdisplay">Mind Matters Memphis</span>
-          <span>Adult Clinical and</span>
-          <span>Forensic Neuropsychology</span>
+    <div className="bg-sand w-full h-1/4 font-accessbody grid grid-cols-5">
+      <div className="col-span-5 lg:col-start-2 lg:col-span-3 self-center justify-self-center pt-4 pb-6 md:py-12 md:max-w-[800px] xl:max-w-[1000px]">
+        <img src={logo} className="h-fit w-fit object-cover px-2 py-6 sm:px-8 sm:py-8"></img>
+        <h1 className="text-xl sm:text-3xl xl:text-4xl flex flex-col gap-2 items-center text-midnight">
+          <span>Adult Clinical & Forensic Evaluations</span>
         </h1>
-      </div>
-      <div className="col-start-4 col-span-2 inherit">
-        <img src={waiting} alt="profiles" className="h-[32rem] w-full object-cover"/>
       </div>
     </div>
   );

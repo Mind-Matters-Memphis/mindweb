@@ -4,7 +4,7 @@ export default {
     content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
   	colors: {
-  		dust: '#F2F2F2',
+  		dust: '#F9F9F9',
   		sand: '#E9E3DC',
   		sage: '#9DB8A8',
   		coral: '#D5573B',
