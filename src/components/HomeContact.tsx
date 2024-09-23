@@ -26,13 +26,15 @@ export const HomeContact = () => {
     },
   ];
   return (
-    <div className="bg-midnight text-sand p-4">
-      <h2 className="text-4xl text-center p-4">Get in Touch</h2>
-      <div className="flex flex-col items-center p-4">
-        <div>
-          {
-            contactItems.map((item, index) => <ContactListItem key={index} icon={item.icon} imgName={item.imgName} text={item.text} url={item.url}/>)
-          }
+    <div className="bg-midnight text-sand p-4 sm:p-8 flex justify-center">
+      <div className="p-4 grid gap-4 justify-start text-xl w-fit">
+        <h2 className="font-accessdisplay text-4xl sm:text-6xl md:text-7xl text-center">Get in Touch</h2>
+        <div className="flex flex-col items-center">
+          <div>
+            {
+              contactItems.map((item, index) => <ContactListItem key={index} icon={item.icon} imgName={item.imgName} text={item.text} url={item.url}/>)
+            }
+          </div>
         </div>
       </div>
     </div>
