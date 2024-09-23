@@ -1,7 +1,6 @@
 // import { Title } from "../components/HomeTitle";
 import { HomeLanding } from "../components/HomeLanding";
 // import { HomeChoose } from "../components/HomeChoose";
-import { HomeContact } from "../components/HomeContact";
 import { HomeServices } from "../components/HomeServices";
 import { HomeReferral } from "@/components/HomeReferral";
 import { HomeMeet } from "@/components/HomeMeet";
@@ -46,7 +45,6 @@ export const Home = () => {
       </div>
       <HomeMeet />
       <HomeReferral />
-      <HomeContact />
     </div>
   );
 }
