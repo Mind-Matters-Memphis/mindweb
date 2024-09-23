@@ -28,7 +28,7 @@ export const Home = () => {
           <img src={waiting} alt="Adult woman seated at a table, deep in thought." />
         </div>
         <div className="mt-4 text-xl p-4 lg:px-8 xl:px-16 flex flex-col gap-4 justify-center xl:items-start max-w-[900px] bg-dust col-span-4 sm:col-start-2 lg:col-start-3 sm:col-span-3 lg:text-2xl lg:text-start lg:mt-10">
-          <h2 className="text-inlet text-4xl sm:text-6xl font-accessdisplay font-bold uppercase text-center flex flex-col justify-center items-center">
+          <h2 className="text-inlet text-4xl sm:text-6xl xl:text-7xl font-accessdisplay font-bold uppercase text-center flex flex-col justify-center items-center">
             <span>Optimizing Brain Health</span>
           </h2>
           <p className="text-midnight font-accessbody">Mind Matters Memphis provides clinical and forensic neuropsychological evaluations for adult patients with stroke, traumatic brain injury (TBI), epilepsy, or other neurocognitive concerns. We partner with patients to optimize their cognitive wellness.</p>
@@ -40,7 +40,7 @@ export const Home = () => {
         <div className="absolute bottom-0 left-0 border-b-[96px] border-sage border-t-0 border-l-100w border-l-inlet z-10"></div>
       </div>
       <div>
-        <h2 className="text-inlet uppercase text-6xl py-16 font-altdisplay font-bold text-center">What We Offer</h2>
+        <h2 className="text-inlet uppercase text-4xl sm:text-6xl lg:text-7xl py-16 font-accessdisplay font-bold text-center">What We Offer</h2>
         <HomeServices />
       </div>
       <HomeMeet />

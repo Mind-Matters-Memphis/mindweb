@@ -1,6 +1,4 @@
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/imgs/logo/logoSand.svg"
-import logoWhite from "../assets/imgs/logo/logoWhite.svg"
 
 export const Nav = () => {
   const location = useLocation();
@@ -13,15 +11,12 @@ export const Nav = () => {
   
   return ( 
     <header className="w-full sticky bg-midnight text-sand flex justify-between items-center shadow-sm group font-accessdisplay" role="banner">
-      <div className="">
-        <Link to="/" className="" aria-label="Home">
-          <img src={logo} className="h-32 w-64 ml-4 sm:ml-12 " title="Mind Matters Logo" role="Icon image"/>
-          {/* <span className="font-bold font-accessdisplay md:text-2xl">Mind Matters Memphis</span> */}
-        </Link>
+      <div className="p-4 lg:p-8 ">
+        <Link to="/" className="font-bold font-accessdisplay text-2xl sm:text-4xl" aria-label="Home">Mind Matters Memphis</Link>
       </div>
       <div className="flex-grow"></div>
       <nav className="h-full w-full fixed top-16 bg-midnight overflow-hidden max-h-0 transition-all duration-500 ease-out group-has-[:checked]:max-h-full lg:h-fit lg:w-fit lg:max-h-full lg:static xl-pr-4" role="navigation" aria-label="Main navigation" >
-        <ul className="list-none lg:flex lg:justify-end items-center" onClick={handleListClick}>
+        <ul className="text-2xl list-none lg:flex lg:justify-end items-center" onClick={handleListClick}>
           <li>
             <Link to="/meet-dr-gould" className={navLinkStyle} aria-current={location?.pathname === "/meet-dr-gould"}>About</Link>
           </li>

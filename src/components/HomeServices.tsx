@@ -1,5 +1,4 @@
 import { ServiceBlock } from "./ServiceBlock";
-import { ServiceBlock as Block } from "./Block";
 import { SiExoscale as Exo } from "react-icons/si";
 import { SiClevercloud as Cloud } from "react-icons/si";
 import { SiH3 as Honeycomb } from "react-icons/si";
@@ -14,10 +13,10 @@ export const HomeServices = () => {
         "Lorem ipsum list item",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
       ],
-      linkText: "Learn More",
+      linkText: "Clinical Neuropsychology",
       // style: "xl:justify-self-end xl:mr-24 mt-10 border-inlet from-inlet/75",
       style: "border-inlet from-inlet/75",
-      btnStyle: "border-inlet/75",
+      btnStyle: "border-inlet/75 hover:bg-inlet/15",
       color: "inlet",
       icon: Exo,
       iconAlt: "Triangle, half solid, half streaked",
@@ -32,9 +31,9 @@ export const HomeServices = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
         "Lorem ipsum list item",
       ],
-      linkText: "Learn More",
+      linkText: "Forensic Evaluations",
       style: "border-sage from-sage/75",
-      btnStyle: "border-sage/90",
+      btnStyle: "border-sage/90 hover:bg-sage/25",
       color: "sage",
       icon: Cloud,
       iconAlt: "Triangle, half solid, half streaked",
@@ -48,10 +47,10 @@ export const HomeServices = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
         "Lorem ipsum list item",
       ],
-      linkText: "Learn More",
+      linkText: "Memory Care",
       // style: "xl:justify-self-start xl:ml-24 mb-10 border-coral from-coral/50",
       style: "mb-10 border-coral from-coral/50",
-      btnStyle: "border-coral/70",
+      btnStyle: "border-coral/70 hover:bg-coral/15",
       color: "coral",
       icon: Honeycomb,
       iconAlt: "Triangle, half solid, half streaked",
