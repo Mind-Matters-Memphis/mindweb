@@ -22,7 +22,7 @@ export const ServiceBlock = ({ service }: Props) => {
   // remove 
   return ( 
     <div className={"py-4 sm:px-2 md:p-4 lg:p-8 border-2 rounded-3xl shadow-2xl max-w-3xl bg-gradient-to-tl to-dust z-20 " + service.style}>
-      <div className={"bg-dust text-midnight shadow-inner grid justify-center items-center w-inherit p-2 sm:p-4 lg:p-8 rounded-3xl"}>
+      <div className={"bg-dust text-midnight shadow-inner grid justify-center items-center w-inherit p-4 px-6 lg:p-8 rounded-3xl"}>
         <div>
           <h2 className="text-3xl sm:text-4xl font-bold font-accessdisplay py-4 text-center">{service.title}</h2>
         </div>
@@ -40,7 +40,7 @@ export const ServiceBlock = ({ service }: Props) => {
           }
         </ul>
         <div className="flex justify-center">
-          <Link to={service.url} className={"text-xl sm:text-2xl p-4 sm:px-8 m-4 rounded-lg text-midnight font-semibold shadow-md border-2 lg:border-4 transition-all duration-500 ease-in-out " + service.btnStyle}>{service.linkText}</Link>
+          <Link to={service.url} className={"text-xl sm:text-2xl p-4 sm:px-8 m-4 rounded-lg text-midnight text-center font-semibold shadow-md border-2 lg:border-4 transition-all duration-500 ease-in-out " + service.btnStyle}>{service.linkText}</Link>
         </div>
       </div>
     </div>
