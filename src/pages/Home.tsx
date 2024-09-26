@@ -36,12 +36,12 @@ export const Home = () => {
         </div>
       </div>
       <div className="relative min-h-48 bg-dust">
-        <div className="absolute top-0 right-0 border-t-[96px] border-t-dust border-b-0 border-r-100w border-r-coral z-10"></div>
+        <div className="absolute top-0 right-0 border-t-[96px] border-t-dust border-b-0 border-r-100w border-r-inlet z-10"></div>
         <div className="absolute bottom-0 left-0 border-b-[96px] border-sage border-t-0 border-l-100w border-l-inlet z-10"></div>
       </div>
       <div className="bg-dust relative">
-        <div className="absolute bg-sage w-0 h-0 top-0 left-0 z-0 border-l-[50dvw] border-dust border-r-[50cqw] border-t-12 lg:border-t-25 border-t-sage"></div>
-        <div className="relative h-32 lg:h-64 w-dvw flex justify-center items-start">
+        <div className="absolute bg-sage w-0 h-0 top-0 left-0 z-0 border-l-[50dvw] border-dust border-r-[50cqw] border-t-25 sm:border-t-12 lg:border-t-25 border-t-sage"></div>
+        <div className="relative h-32 sm:h-36 lg:h-64 w-dvw flex justify-center items-start">
           <h2 className="text-midnight uppercase text-4xl sm:text-5xl md:text-6xl lg:text-7xl lg:py-8 font-accessdisplay font-bold text-center underline decoration-line decoration-midnight decoration-4 z-10">What We Offer</h2>
         </div>
         <HomeServices />
