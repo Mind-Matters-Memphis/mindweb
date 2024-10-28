@@ -78,6 +78,11 @@ export const Footer = () => {
                   <span className="">Meet Dr. Gould</span>
                 </Link>
               </li>
+              <li className={listItemStyle}>
+                <Link to="/forms" className={altLinkStyle} >
+                  <span className="">Forms</span>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

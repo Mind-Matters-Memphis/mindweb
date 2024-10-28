@@ -5,7 +5,7 @@ import { SiH3 as Honeycomb } from "react-icons/si";
 export const HomeServices = () => {
   const services = [
     {
-      title: "Clinical Evaluations",
+      title: "Neuropsychologcal Evaluations",
       text: "Comprehensive neuropsychological evaluations for individuals with cognitive concerns.",
       url: "/clinical-neuropsychology",
       points: [
@@ -40,14 +40,14 @@ export const HomeServices = () => {
       rotation: 65,
     },
     {
-      title: "Memory Care Assessments",
+      title: "Cognitive Aging Assessments",
       text: "Specialized care for individuals with memory disorders and their families.",
-      url: "/memory-care",
+      url: "/cognitive-aging",
       points: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
         "Lorem ipsum list item",
       ],
-      linkText: "Memory Care",
+      linkText: "Cognitive Aging",
       // style: "xl:justify-self-start xl:ml-24 mb-10 border-coral from-coral/50",
       style: "mb-10 border-coral from-coral/50",
       btnStyle: "border-coral/70 hover:bg-coral/15",

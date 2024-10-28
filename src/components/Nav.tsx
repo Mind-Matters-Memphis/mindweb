@@ -1,4 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
+// old version of Nav
+// now using a more accessible version (NavMenu and NavMenuMobile)
 
 export const Nav = () => {
   const location = useLocation();

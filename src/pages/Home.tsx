@@ -31,8 +31,8 @@ export const Home = () => {
           <h2 className="text-inlet text-4xl sm:text-6xl xl:text-7xl font-accessdisplay font-bold uppercase text-center flex flex-col justify-center items-center">
             <span>Optimizing Brain Health</span>
           </h2>
-          <p className="text-midnight font-accessbody">Mind Matters Memphis provides clinical and forensic neuropsychological evaluations for adult patients with stroke, traumatic brain injury (TBI), epilepsy, or other neurocognitive concerns. We partner with patients to optimize their cognitive wellness.</p>
-          <p className="text-midnight font-accessbody">Referring physicians and therapists can expect (insert quote here about process) through the entirety of the patient's care journey. </p>
+          <p className="text-midnight font-accessbody">Mind Matters Memphis provides clinical and forensic neuropsychological evaluations for adult patients with stroke, TBI, epilepsy, or other neurocognitive concerns. We partner with patients to optimize their cognitive wellness.</p>
+          <p className="text-midnight font-accessbody">Referring physicians and therapists can expect a comprehensive evaluation and thorough list of recommendations for the patient, along with connections to the appropriate resources or local organizations.</p>
         </div>
       </div>
       <div className="relative min-h-48 bg-dust">

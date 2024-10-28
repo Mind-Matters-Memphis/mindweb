@@ -3,7 +3,7 @@ import { IconType } from "react-icons";
 type Props = {
   icon: IconType,
   imgName: string,
-  text: JSX.Element,
+  text: string | JSX.Element,
   url: string,
 }
 export const ContactListItem = ({icon, imgName, text, url}: Props) => {

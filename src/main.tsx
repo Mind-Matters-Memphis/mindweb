@@ -7,6 +7,7 @@ import { Root } from "./Root";
 import { About } from "./pages/About";
 import { Clinical } from "./pages/Clinical";
 import { Forensic } from "./pages/Forensic";
+import { Aging } from "./pages/Aging";
 import { Contact } from "./pages/Contact";
 import "./index.css";
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/forensic-evaluations",
         element: <Forensic />,
+      },
+      {
+        path: "/cognitive-aging",
+        element: <Aging />,
       },
       {
         path: "/contact",

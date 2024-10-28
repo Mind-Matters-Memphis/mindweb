@@ -11,8 +11,8 @@ export const HomeMeet = () => {
           <h2 className="text-4xl sm:text-6xl md:text-7xl pb-4 sm:p-4 font-accessdisplay font-bold uppercase">Meet Dr. Gould</h2>
             <img src={portrait} alt="Dr. Gould professional headshot" className="h-64 w-64 object-cover object-top rounded-full"/>
             <div className="p-4 my-4 text-xl text-start flex flex-col gap-2 md:gap-4">
-              <p className="">Dr. Gould has been providing excellent care in clinical neuropsychology for XX years.</p>
-              <p className="text-4xl italic">I founded Mind Matters Memphis to empower... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+              <p className="">Dr. Amanda Gould founded Mind Matters Memphis to provide a more personalized clinical neuropsychology experience for her patients.</p>
+              <p className="text-4xl italic">“As a boutique clinic, I’m able to offer a greater level of attention and time to the patient to ensure they feel heard and receive a plan of care that is specific to their needs, lifestyle, and goals.”</p>
             </div>
             <Link to="/meet-dr-gould" aria-label="About Dr. Gould" className="bg-dust/80 font-bold text-2xl p-4 px-8 sm:p-6 sm:px-12 rounded-lg transition-all ease-in-out duration-200 relative shadow-md lg:before:absolute lg:before:bottom-[27.5%] lg:before:left-[50%] lg:before:h-[3px] lg:before:w-0 lg:before:origin-center lg:before:rounded-sm lg:before:bg-coral lg:before:transition-all lg:before:duration-300 lg:before:ease-in-out lg:before:content-[''] lg:hover:before:left-[17.5%] lg:hover:before:w-[65%] active:left-[1px] active:top-[2px] active:shadow-none">
               <span>About Dr. Gould</span>
@@ -24,8 +24,8 @@ export const HomeMeet = () => {
           </div>
           <h2 className="text-7xl p-4 font-accessdisplay font-bold uppercase text-center lg:col-start-1 lg:row-start-1">Meet Dr. Gould</h2>
           <div className="p-4 xl:p-8 text-xl text-start flex flex-col gap-4 row-span-3">
-            <p className="">Dr. Gould has been providing excellent care in clinical neuropsychology for XX years.</p>
-            <p className="text-4xl italic text-midnight font-semibold">I founded Mind Matters Memphis to empower...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+            <p className="">Dr. Amanda Gould founded Mind Matters Memphis to provide a more personalized clinical neuropsychology experience for her patients.</p>
+            <p className="text-4xl italic text-midnight font-semibold">“As a boutique clinic, I’m able to offer a greater level of attention and time to the patient to ensure they feel heard and receive a plan of care that is specific to their needs, lifestyle, and goals.”</p>
           </div>
           <div className="flex justify-center items-center">
             <Link to="/meet-dr-gould" aria-label="About Dr. Gould" className="bg-dust/80 font-bold text-2xl p-6 px-12 rounded-lg transition-all ease-in-out duration-200 relative shadow-md lg:before:absolute lg:before:bottom-[27.5%] lg:before:left-[50%] lg:before:h-[3px] lg:before:w-0 lg:before:origin-center lg:before:rounded-sm lg:before:bg-coral lg:before:transition-all lg:before:duration-300 lg:before:ease-in-out lg:before:content-[''] lg:hover:before:left-[17.5%] lg:hover:before:w-[65%] active:left-[1px] active:top-[2px] active:shadow-none xl:mx-4">
