@@ -32,8 +32,8 @@ const Link = ({ href, className, ...props }: Link) => {
 const linkStyle = "block text-sand transition-all duration-300 ease-in-out hover:text-midnight hover:bg-sand hover:shadow-md";
 
 const NavMenuMobile: React.FC<NavMenuMobile> = () => (
-  <NavigationMenu.Root className="relative z-50 flex w-screen bg-midnight text-sand text-2xl shadow-sm group font-accessdisplay lg:hidden">
-    <NavigationMenu.List className="flex w-screen items-center relative">
+  <NavigationMenu.Root className="relative z-50 flex w-full group bg-midnight text-sand text-2xl shadow-sm group font-accessdisplay lg:hidden *:w-full">
+    <NavigationMenu.List className="flex items-center relative">
       <NavigationMenu.Item className="">
         <Link href="/" className="p-4 px-2 sm:px-6 lg:p-8 sm:text-4xl">
           Mind Matters Memphis
@@ -47,7 +47,7 @@ const NavMenuMobile: React.FC<NavMenuMobile> = () => (
           Menu
           <ChevronDown className="transition-transform duration-[250] ease-in group-data-[state=open]:-rotate-180" />
         </NavigationMenu.Trigger>
-        <NavigationMenu.Content className="absolute bg-midnight top-16 md:top-[72px] left-0 w-screen min-h-dvh" data-orientation="vertical" >
+        <NavigationMenu.Content className="absolute bg-midnight top-16 md:top-[72px] left-0 w-full min-h-screen" data-orientation="vertical" >
           <NavigationMenu.Sub data-orientation="vertical" defaultValue="about">
             <NavigationMenu.List>
               <NavigationMenu.Item value="about">
