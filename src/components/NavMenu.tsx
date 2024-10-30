@@ -34,7 +34,7 @@ const Link = ({ href, ...props }: Link) => {
 const linkStyle = "block p-8 text-sand transition-all duration-300 ease-in-out hover:text-midnight hover:bg-sand hover:shadow-md lg:hover:text-sand lg:hover:bg-midnight lg:relative lg:p-4 lg:before:absolute lg:before:bottom-[15%] lg:before:left-[50%] lg:before:h-[2px] lg:before:w-0 lg:before:origin-center lg:before:rounded-sm lg:before:bg-sand lg:before:transition-all lg:before:duration-300 lg:before:ease-in-out lg:before:content-[''] lg:hover:before:left-[0%] lg:hover:before:w-[100%] lg:active:left-[1px] lg:active:top-[2px] lg:active:shadow-none xl:mx-4";
 
 const NavMenu: React.FC<NavMenu> = () => (
-  <NavigationMenu.Root className="hidden relative z-50 lg:flex w-screen bg-midnight text-sand text-2xl shadow-sm group font-accessdisplay *:w-full">
+  <NavigationMenu.Root className="hidden relative z-50 lg:flex w-full bg-midnight text-sand text-2xl shadow-sm group font-accessdisplay *:w-full">
     <NavigationMenu.List className="flex w-full items-center">
       <NavigationMenu.Item className="py-4 lg:py-8">
         <Link href="/" className="p-4 lg:p-8 sm:text-4xl">
