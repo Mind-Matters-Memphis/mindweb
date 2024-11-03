@@ -22,11 +22,12 @@ export const About = () => {
             />
           </div>
           <p className="mt-4 md:mt-0 p-4 max-w-[500px] justify-self-center">
-            Dr. Gould is a board-certified neuropsychologist in Memphis, TN, whose
-            clinical practice focuses on adult patients with epilepsy, traumatic
-            brain injury (TBI), stroke, and other neurocognitive concerns. She
-            performs neuropsychological evaluations and provides her patients with
-            the education and strategies for optimizing their brain health.
+            Dr. Gould is a board-certified neuropsychologist in Memphis, TN,
+            whose clinical practice focuses on adult patients with epilepsy,
+            traumatic brain injury (TBI), stroke, and other neurocognitive
+            concerns. She performs neuropsychological evaluations and provides
+            her patients with the education and strategies for optimizing their
+            brain health.
           </p>
         </div>
         <div className="flex justify-center">
@@ -61,7 +62,14 @@ export const About = () => {
           University of Virginia.
         </p>
         <div>
-          <p className="max-w-prose p-4 md:p-8">Visit our <a className="underline" href="/contact">Contact page </a> for information on how to request an appointment or refer a patient to Dr. Gould.</p>
+          <p className="max-w-prose p-4 md:p-8">
+            Visit our{" "}
+            <a className="underline" href="/contact">
+              Contact page
+            </a>{" "}
+            for information on how to request an appointment or refer a patient
+            to Dr. Gould.
+          </p>
         </div>
       </div>
     </div>

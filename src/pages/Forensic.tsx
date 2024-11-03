@@ -49,7 +49,7 @@ export const Forensic = () => {
             </div>
           </div>
         </div>
-        <div className="grid justify-center">
+        <div className="grid justify-center bg-dust">
           <div className="bg-dust p-8 grid lg:grid-cols-3 lg:grid-rows-2 max-w-[1000px] gap-8 lg:gap-16 lg:py-16">
             <div id="medical-evals" className="lg:col-span-2">
               <div className="forensic-parallelogram-wrap max-w-[600px]">

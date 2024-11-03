@@ -43,7 +43,7 @@ export const Aging = () => {
           </h2>
         </div>
         <div className="p-4 grid justify-items-center gap-8">
-          <p className="p-4 max-w-[500px]">
+          <p className="p-4 max-w-[600px]">
             A cognitive evaluation at Mind Matters Memphis will be more
             comprehensive than a traditional dementia evaluation. The evaluation
             involves a three stage process: an initial interview, a

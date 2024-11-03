@@ -65,7 +65,7 @@ export const Contact = () => {
               Please complete the referral form and fax it - along with patient
               records - to (901)-766-7550.
             </p>
-            <button className="bg-dust/80 font-semibold text-2xl p-4 my-4 sm:p-6 sm:px-12 border-2 border-midnight w-fit h-fit justify-self-center rounded-lg transition-all ease-in-out duration-200 relative shadow-md active:left-[1px] active:top-[2px] active:shadow-none">
+            <button className="bg-dust/80 font-bold text-2xl p-4 m-4 sm:p-6 sm:px-12 border-2 border-midnight w-fit h-fit justify-self-center rounded-lg transition-all ease-in-out duration-200 relative shadow-md before:absolute before:bottom-[27.5%] before:left-[50%] before:h-[3px] before:w-0 before:origin-center before:rounded-sm before:bg-coral before:transition-all before:duration-300 before:ease-in-out before:content-[''] hover:before:left-[13%] hover:before:w-[74%] active:left-[1px] active:top-[2px] active:shadow-none">
               Download Referral Form
             </button>
             <p className="hidden sm:block px-4 text-center">
@@ -103,31 +103,31 @@ export const Contact = () => {
           </div>
         </div>
         <div className="flex flex-col items-center">
-        <div className="flex flex-col gap-4 p-4 max-w-[500px] sm:pt-8">
-          <p className="">
-            Mind Matters Memphis is located in Clark Tower at 5100 Poplar
-            Avenue,
-            <span className="font-bold"> Suite 322</span>, on the{" "}
-            <span className="font-bold">3rd floor</span>.
-          </p>
-          <p className="">
-            The Clark Tower at 5100 Poplar Ave. is the tallest building on the
-            North side of Poplar, between White Station and Mendenhall.
-          </p>
-          <div className="block sm:flex justify-center items-center">
-            <p className="font-bold sm: pr-6">Directions:</p>
-            <div className="flex items-center justify-center pt-2 sm:pt-0 gap-2 sm:gap-4 md:gap-6">
-              <MapPin className="h-12 w-12 text-coral" />
-              <a
-                href="https://maps.app.goo.gl/9RzA1WMAE9NfWH1B6"
-                className="underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                5100 Poplar Ave
-              </a>
+          <div className="flex flex-col gap-4 p-4 max-w-[500px] sm:pt-8">
+            <p className="">
+              Mind Matters Memphis is located in Clark Tower at 5100 Poplar
+              Avenue,
+              <span className="font-bold"> Suite 322</span>, on the{" "}
+              <span className="font-bold">3rd floor</span>.
+            </p>
+            <p className="">
+              The Clark Tower at 5100 Poplar Ave. is the tallest building on the
+              North side of Poplar, between White Station and Mendenhall.
+            </p>
+            <div className="block sm:flex justify-center items-center">
+              <p className="font-bold sm: pr-6">Directions:</p>
+              <div className="flex items-center justify-center pt-2 sm:pt-0 gap-2 sm:gap-4 md:gap-6">
+                <MapPin className="h-12 w-12 text-coral" />
+                <a
+                  href="https://maps.app.goo.gl/9RzA1WMAE9NfWH1B6"
+                  className="underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  5100 Poplar Ave
+                </a>
+              </div>
             </div>
-          </div>
           </div>
           <div className="grid items-center p-4 lg:grid-cols-2 lg:gap-8">
             <div className="relative h-36 w-full bg-inlet rounded-3xl lg:col-span-2">
@@ -161,12 +161,22 @@ export const Contact = () => {
             </ul>
             <div className=" text-center italic">
               <div>
-                <img src={clarkTower} alt="Aerial view of Clark Tower, with west side parking garage entrance indicated." />
-                <p className="py-2">Clark Tower, note parking garage entrance</p>
+                <img
+                  src={clarkTower}
+                  alt="Aerial view of Clark Tower, with west side parking garage entrance indicated."
+                />
+                <p className="py-2">
+                  Clark Tower, note parking garage entrance
+                </p>
               </div>
               <div>
-                <img src={parkingGarage} alt="Entrance to Clark Tower level 3 from parking garage." />
-                <p className="py-2">Entrance to Clark Tower level 3 from parking garage</p>
+                <img
+                  src={parkingGarage}
+                  alt="Entrance to Clark Tower level 3 from parking garage."
+                />
+                <p className="py-2">
+                  Entrance to Clark Tower level 3 from parking garage
+                </p>
               </div>
             </div>
           </div>
