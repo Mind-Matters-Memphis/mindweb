@@ -37,7 +37,7 @@ export const Footer = () => {
   const listItemStyle = "py-2";
   const altLinkStyle = "p-2 underline decoration-sage md:decoration-2 tracking-wide text-dust active:left-[1px] active:top-[2px] active:shadow-none";
   return ( 
-    <footer className="bg-midnight text-dust p-4 sm:p-8 text-xl">
+    <footer className="bg-midnight text-dust p-4 sm:p-8 text-xl peer-has-[[data-state=open]]:blur-sm">
       <div className="flex flex-col md:grid md:grid-rows-2 justify-center md:items-end border-b-2 border-sage lg:border-b-4">
         <div className="self-center md:self-start border-b-2 border-sage md:border-b-0">
           <Link to="/" className="flex justify-center cursor-pointer py-4" aria-label="Return to Mind Matters Memphis homepage">

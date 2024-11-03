@@ -7,10 +7,9 @@ export const Root = () => {
   // <Outlet /> is where the child routes are rendered
   return ( 
     <div className="font-accessbody">
-      {/* <Nav></Nav> */}
       <NavMenu />
       <NavMenuMobile />
-      <main>
+      <main className="peer-has-[[data-state=open]]:blur-sm">
         <Outlet />
       </main>
       <Footer />

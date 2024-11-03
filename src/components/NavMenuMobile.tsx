@@ -32,7 +32,7 @@ const Link = ({ href, className, ...props }: Link) => {
 const linkStyle = "block text-sand transition-all duration-300 ease-in-out hover:text-midnight hover:bg-sand hover:shadow-md";
 
 const NavMenuMobile: React.FC<NavMenuMobile> = () => (
-  <NavigationMenu.Root className="relative z-50 flex w-full group bg-midnight text-sand text-2xl shadow-sm group font-accessdisplay lg:hidden *:w-full">
+  <NavigationMenu.Root className="peer relative z-50 flex w-full group bg-midnight text-sand text-2xl shadow-sm group font-accessdisplay lg:hidden *:w-full">
     <NavigationMenu.List className="flex items-center relative">
       <NavigationMenu.Item className="">
         <Link href="/" className="p-4 px-2 sm:px-6 lg:p-8 sm:text-4xl">
@@ -69,6 +69,11 @@ const NavMenuMobile: React.FC<NavMenuMobile> = () => (
               <NavigationMenu.Item>
                 <Link href="/forensic-evaluations" className="p-8">
                   Forensic Evaluations
+                </Link>
+              </NavigationMenu.Item>
+              <NavigationMenu.Item>
+                <Link href="/cognitive-aging" className="p-8">
+                  Cognitive Aging
                 </Link>
               </NavigationMenu.Item>
               <NavigationMenu.Item>
