@@ -1,6 +1,17 @@
+import { useEffect } from "react";
 import { Circle } from "lucide-react";
 
 export const Aging = () => {
+  useEffect(() => {
+    const href = window.location.href.substring(
+      window.location.href.lastIndexOf("#") + 1,
+    );
+    const element = document.getElementById(href);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
+
   return (
     <div className="bg-dust text-midnight text-xl">
       <div className="bg-sage">
@@ -14,7 +25,9 @@ export const Aging = () => {
             <div className="grid sm:grid-cols-4 lg:grid-cols-5 items-center max-w-[1100px]">
               <div className="hidden cognitive-chevron sm:block h-36 bg-sage justify-self-center">
                 <span className="visually-hidden">
-                  Curved chevron (arrow), sage color, serving as a decorative element, pointing at the cognitive aging evaluations paragraph.
+                  Curved chevron (arrow), sage color, serving as a decorative
+                  element, pointing at the cognitive aging evaluations
+                  paragraph.
                 </span>
               </div>
               <p className="sm:col-start-2 sm:col-span-3">
@@ -36,7 +49,8 @@ export const Aging = () => {
               </p>
               <div className="hidden cognitive-chevron sm:block bg-coral h-36 rotate-180 sm:col-start-4 lg:col-start-5 justify-self-center">
                 <span className="visually-hidden">
-                  Curved chevron (arrow), coral color, serving as a decorative element, pointing at the increased risk factors paragraph.
+                  Curved chevron (arrow), coral color, serving as a decorative
+                  element, pointing at the increased risk factors paragraph.
                 </span>
               </div>
             </div>
@@ -111,12 +125,14 @@ export const Aging = () => {
       <div className="bg-dust grid md:grid-cols-4 xl:grid-cols-5 py-8 lg:py-16">
         <div className="contact-curved-top bg-sage h-[10dvh] w-full md:hidden">
           <span className="visually-hidden">
-            Curved top edge art, sage color, serving as a decorative element on smaller screens.
+            Curved top edge art, sage color, serving as a decorative element on
+            smaller screens.
           </span>
         </div>
         <div className="hidden xl:block xl:col-start-1 contact-curved-left bg-sage w-[15dvw] h-full justify-self-end">
           <span className="visually-hidden">
-            Curved left edge art, sage color, serving as a decorative element on larger screens.
+            Curved left edge art, sage color, serving as a decorative element on
+            larger screens.
           </span>
         </div>
         <div className="grid justify-center md:col-start-1 md:col-span-3 xl:col-start-2">
@@ -151,12 +167,14 @@ export const Aging = () => {
         </div>
         <div className="contact-curved-right bg-sage w-[22dvw] h-full hidden md:block justify-self-start xl:w-[15dvw]">
           <span className="visually-hidden">
-            Curved right edge art, sage color, serving as a decorative element on larger screens.
+            Curved right edge art, sage color, serving as a decorative element
+            on larger screens.
           </span>
         </div>
         <div className="contact-curved-bottom bg-sage h-[10dvh] w-full md:hidden">
           <span className="visually-hidden">
-            Curved bottom edge art, sage color, serving as a decorative element on smaller screens.
+            Curved bottom edge art, sage color, serving as a decorative element
+            on smaller screens.
           </span>
         </div>
       </div>

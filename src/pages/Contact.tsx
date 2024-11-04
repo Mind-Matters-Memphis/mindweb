@@ -1,9 +1,20 @@
+import { useEffect } from "react";
 import clarkTower from "../assets/imgs/ClarkTower.png";
 import parkingGarage from "../assets/imgs/ParkingGarage.png";
 import { ChevronRight, MapPin } from "lucide-react";
 import "../assets/stylesheets/shapes.css";
 
 export const Contact = () => {
+  useEffect(() => {
+    const href = window.location.href.substring(
+      window.location.href.lastIndexOf("#") + 1,
+    );
+    const element = document.getElementById(href);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
+
   return (
     <div className="text-accessbody">
       <div className="bg-dust text-midnight text-xl py-8 sm:p-8 flex flex-col gap-8">

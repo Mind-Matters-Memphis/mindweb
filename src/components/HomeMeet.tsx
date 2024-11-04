@@ -6,12 +6,14 @@ export const HomeMeet = () => {
     <div className="grid sm:grid-cols-9 justify-center bg-sage text-midnight py-4 relative">
       <div className="hidden lg:block absolute left-0 h-[30cqw] w-[15cqw] rounded-br-full rounded-tr-full bg-inlet border-r-4 border-b-8 border-t-8 border-inlet z-0 -translate-y-[50%]">
         <span className="visually-hidden">
-          A decorative semicircle element, big sky blue color, sitting at the upper left corner of the Meet Dr. Gould section.
+          A decorative semicircle element, big sky blue color, sitting at the
+          upper left corner of the Meet Dr. Gould section.
         </span>
       </div>
       <div className="hidden lg:block absolute left-0 h-[20cqw] w-[10cqw] rounded-br-full rounded-tr-full bg-sand border-r-6 border-coral z-0 -translate-y-[50%]">
         <span className="visually-hidden">
-          A decorative semicircle element, sand and coral colors, sitting inside the larger blue semicircle in the upper left corner.
+          A decorative semicircle element, sand and coral colors, sitting inside
+          the larger blue semicircle in the upper left corner.
         </span>
       </div>
       <div className="sm:col-start-2 sm:col-span-7 p-4 lg:p-0">

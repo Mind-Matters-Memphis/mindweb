@@ -1,6 +1,17 @@
+import { useEffect } from "react";
 import HeadshotSmall from "../assets/imgs/HeadshotSm.jpeg";
 
 export const About = () => {
+  useEffect(() => {
+    const href = window.location.href.substring(
+      window.location.href.lastIndexOf("#") + 1,
+    );
+    const element = document.getElementById(href);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
+
   return (
     <div className="bg-sand text-midnight text-xl">
       <div className="flex flex-col justify-center w-full py-4 about-parallelogram-wrap">

@@ -1,4 +1,4 @@
-import contemplative from "../assets/imgs/InDeepThought.jpg"
+import contemplative from "../assets/imgs/InDeepThought.jpg";
 import { ListItem } from "./HomeListItem";
 import { RiMentalHealthLine as Mental } from "react-icons/ri";
 import { FaNotesMedical as Notes } from "react-icons/fa";
@@ -26,21 +26,34 @@ export const HomeChoose = () => {
       url: "/cognitive-aging",
       icon: Old,
       imgText: "Older Adult icon",
-    }
-  ]
-  return ( 
+    },
+  ];
+  return (
     <div className="bg-midnight p-4 lg:grid lg:grid-cols-4">
       <div className="flex flex-col justify-center lg:col-span-2 lg:p-8">
-        <h2 className="text-sand py-4 self-center lg:text-4xl font-display">Why Choose Us</h2>
+        <h2 className="text-sand py-4 self-center lg:text-4xl font-display">
+          Why Choose Us
+        </h2>
         <ul className="grid grid-rows-3">
-          {
-            listItems.map((item, index) => <ListItem key={index} title={item.title} text={item.text} icon={item.icon} imgText={item.imgText} url={item.url} />)
-          }
+          {listItems.map((item, index) => (
+            <ListItem
+              key={index}
+              title={item.title}
+              text={item.text}
+              icon={item.icon}
+              imgText={item.imgText}
+              url={item.url}
+            />
+          ))}
         </ul>
       </div>
       <div className="hidden col-span-2 p-12 lg:flex items-center">
-        <img src={contemplative} alt="Young Black Man in Contemplation" className="h-full object-cover rounded-xl"/>
+        <img
+          src={contemplative}
+          alt="Young Black Man in Contemplation"
+          className="h-full object-cover rounded-xl"
+        />
       </div>
-  </div>
+    </div>
   );
-}
+};

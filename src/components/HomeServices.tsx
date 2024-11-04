@@ -55,16 +55,18 @@ export const HomeServices = () => {
       icon: Honeycomb,
       iconAlt: "Triangle, half solid, half streaked",
       rotation: 75,
-    }
-  ]
+    },
+  ];
   // commented out an abstract triangle
-  {/* <div className="absolute bottom-0 right-0 border-b-0 border-dust border-t-50 border-r-50 md:border-t-75 md:border-r-75 border-r-coral z-10"></div> */}
+  {
+    /* <div className="absolute bottom-0 right-0 border-b-0 border-dust border-t-50 border-r-50 md:border-t-75 md:border-r-75 border-r-coral z-10"></div> */
+  }
 
-  return ( 
+  return (
     <div className="pb-12 bg-dust relative grid gap-10 justify-center ">
       {services.map((service, index) => (
         <ServiceBlock key={index} service={service} invert={index % 2 === 0} />
       ))}
     </div>
   );
-}
+};
