@@ -13,7 +13,7 @@ export const Forensic = () => {
           </h1>
           <div className="grid justify-items-center">
             <div className="text-sand p-4 pb-12 max-w-[624px]">
-              <h3 className="font-bold text-2xl pb-2">Offering:</h3>
+              <h2 className="font-bold text-2xl pb-2">Offering:</h2>
               <ul className="list-disc grid gap-4">
                 <li>
                   <p>
@@ -54,6 +54,10 @@ export const Forensic = () => {
             <div id="medical-evals" className="lg:col-span-2">
               <div className="forensic-parallelogram-wrap max-w-[600px]">
                 <div className="forensic-parallelogram bg-sage flex justify-center items-center w-[100%]">
+                  <span className="visually-hidden">
+                    A decorative parallelogram element, sage green color,
+                    framing the header (h2) content.
+                  </span>
                   <div className="drop-shadow-lg h-inherit w-[80%]">
                     <h2 className="forensic-parallelogram-lite bg-dust text-midnight font-accessdisplay flex justify-center items-center px-16 text-2xl sm:text-5xl">
                       <span className="text-center">
@@ -89,13 +93,22 @@ export const Forensic = () => {
                 </p>
               </div>
             </div>
-            <div className="forensic-chevron rotate-180 hidden bg-sage h-56 lg:block lg:row-start-1 lg:col-start-3 self-center justify-self-center"></div>
+            <div className="forensic-chevron rotate-180 hidden bg-sage h-56 lg:block lg:row-start-1 lg:col-start-3 self-center justify-self-center">
+              <span className="visually-hidden">
+                A decorative chevron (arrow) element, sage green color, pointing
+                to the Independent Medical Evaluations text content.
+              </span>
+            </div>
             <div
               id="testamentary-evals"
               className="lg:col-start-2 lg:col-span-2 lg:justify-self-start"
             >
               <div className="forensic-parallelogram-wrap max-w-[600px]">
                 <div className="forensic-parallelogram bg-inlet flex justify-center items-center w-[100%]">
+                  <span className="visually-hidden">
+                    A decorative parallelogram element, big sky blue color,
+                    framing the header (h2) content.
+                  </span>
                   <div className="drop-shadow-lg h-inherit w-[80%]">
                     <h2 className="forensic-parallelogram-lite bg-dust text-midnight font-accessdisplay flex justify-center items-center px-16 text-2xl sm:text-5xl">
                       <span className="text-center">
@@ -144,7 +157,12 @@ export const Forensic = () => {
                 </p>
               </div>
             </div>
-            <div className="forensic-chevron hidden bg-inlet h-56 lg:block lg:row-start-2 lg:col-start-1 self-center justify-self-center"></div>
+            <div className="forensic-chevron hidden bg-inlet h-56 lg:block lg:row-start-2 lg:col-start-1 self-center justify-self-center">
+              <span className="visually-hidden">
+                A decorative chevron (arrow) element, big sky blue color,
+                pointing to the Testamentary Evaluations text content.
+              </span>
+            </div>
           </div>
         </div>
       </div>

@@ -41,12 +41,12 @@ export const Footer = () => {
       <div className="flex flex-col md:grid md:grid-rows-2 justify-center md:items-end border-b-2 border-sage lg:border-b-4">
         <div className="self-center md:self-start border-b-2 border-sage md:border-b-0">
           <Link to="/" className="flex justify-center cursor-pointer py-4" aria-label="Return to Mind Matters Memphis homepage">
-            <img src={logo} className="sm:max-w-[575px]" title="Mind Matters Logo" role="Mind Matters Memphis logo image"/>
+            <img src={logo} className="sm:max-w-[575px]" title="Mind Matters Logo" role="Mind Matters Memphis logo image" alt="Mind Matters Memphis logo, with the 3 'M's depicting a bridge"/>
           </Link>
         </div>
         <div className="flex flex-col mx-auto md:flex-row md:justify-between md:mx-0 md:gap-10 lg:gap-48 xl:gap-96">
           <div className="pb-4 grid justify-start">
-            <h3 className="p-2 pt-4 md:pt-2 text-2xl font-accessdisplay">Get in Touch:</h3>
+            <h2 className="p-2 pt-4 md:pt-2 text-2xl font-accessdisplay">Get in Touch:</h2>
             <div className="flex flex-col items-center">
               <div>
                 {
@@ -56,7 +56,7 @@ export const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center md:self-start pb-4">
-            <h3 className="p-2 md:pb-4 text-2xl font-accessdisplay">Site Navigation:</h3>
+            <h2 className="p-2 md:pb-4 text-2xl font-accessdisplay">Site Navigation:</h2>
             <ul className="flex flex-col justify-between md:gap-6 md:items-start">
               <li className={listItemStyle}>
                 <Link to="/clinical-neuropsychology" className={altLinkStyle} >

@@ -1,23 +1,10 @@
-// import { Title } from "../components/HomeTitle";
 import { HomeLanding } from "../components/HomeLanding";
-// import { HomeChoose } from "../components/HomeChoose";
 import { HomeServices } from "../components/HomeServices";
 import { HomeReferral } from "@/components/HomeReferral";
 import { HomeMeet } from "@/components/HomeMeet";
 import waiting from "../assets/imgs/WomanAtTable.jpg"
 
 export const Home = () => {
-      // background image of initial block
-      // Mind Matters Memphis title
-      // buttons for Learn More and Contact
-      // block for Our Mission
-      //
-
-      // the abstract semicircle and circle 
-      // <div className="h-16 w-16 md:h-96 md:w-48 lg:block lg:h-[768px] lg:w-96 bg-inlet rounded-br-full md:rounded-r-full absolute top-0 left-0 z-20"></div>
-      // <div className="absolute top-2 right-12 lg:top-3/4 lg:right-2/3">
-      //   <div className="bg-coral h-12 w-12 rounded-full"></div>
-      // </div>
 
   return ( 
     <div className="bg-dust">
@@ -40,7 +27,11 @@ export const Home = () => {
         <div className="absolute bottom-0 left-0 border-b-[96px] border-sage border-t-0 border-l-100w border-l-inlet z-10"></div>
       </div>
       <div className="bg-dust relative">
-        <div className="absolute bg-sage w-0 h-0 top-0 left-0 z-0 border-l-[50dvw] border-dust border-r-[50cqw] border-t-25 sm:border-t-12 lg:border-t-25 border-t-sage"></div>
+        <div className="absolute bg-sage w-0 h-0 top-0 left-0 z-0 border-l-[50dvw] border-dust border-r-[50cqw] border-t-25 sm:border-t-12 lg:border-t-25 border-t-sage">
+          <span className="visually-hidden">
+            A decorative triangle element, sage green color, pointing downward at the services section.
+          </span>
+        </div>
         <div className="relative h-32 sm:h-36 lg:h-64 w-dvw flex justify-center items-start">
           <h2 className="text-midnight uppercase text-4xl sm:text-5xl md:text-6xl lg:text-7xl lg:py-8 font-accessdisplay font-bold text-center underline decoration-line decoration-midnight decoration-4 z-10">What We Offer</h2>
         </div>

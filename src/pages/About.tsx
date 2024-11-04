@@ -5,6 +5,10 @@ export const About = () => {
     <div className="bg-sand text-midnight text-xl">
       <div className="flex flex-col justify-center w-full py-4 about-parallelogram-wrap">
         <div className="about-parallelogram bg-sage h-40 sm:h-48 md:h-64 flex flex-col justify-center items-center justify-self-center mx-4 sm:mx-12 shadow-2xl">
+          <span className="visually-hidden">
+            A decorative parallelogram element, sage green color, framing the
+            header content.
+          </span>
           <div className="drop-shadow-lg flex flex-col w-[80%] sm:w-2/3">
             <h1 className="about-parallelogram-lite bg-midnight text-4xl sm:text-5xl md:text-7xl xl:text-8xl font-accessdisplay text-sand h-20 sm:h-24 md:h-32 w-inherit flex items-center justify-center">
               Meet Dr. Gould

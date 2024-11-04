@@ -4,8 +4,16 @@ import { Link } from "react-router-dom";
 export const HomeMeet = () => {
   return (
     <div className="grid sm:grid-cols-9 justify-center bg-sage text-midnight py-4 relative">
-      <div className="hidden lg:block absolute left-0 h-[30cqw] w-[15cqw] rounded-br-full rounded-tr-full bg-inlet border-r-4 border-b-8 border-t-8 border-inlet z-0 -translate-y-[50%]"></div>
-      <div className="hidden lg:block absolute left-0 h-[20cqw] w-[10cqw] rounded-br-full rounded-tr-full bg-sand border-r-6 border-coral z-0 -translate-y-[50%]"></div>
+      <div className="hidden lg:block absolute left-0 h-[30cqw] w-[15cqw] rounded-br-full rounded-tr-full bg-inlet border-r-4 border-b-8 border-t-8 border-inlet z-0 -translate-y-[50%]">
+        <span className="visually-hidden">
+          A decorative semicircle element, big sky blue color, sitting at the upper left corner of the Meet Dr. Gould section.
+        </span>
+      </div>
+      <div className="hidden lg:block absolute left-0 h-[20cqw] w-[10cqw] rounded-br-full rounded-tr-full bg-sand border-r-6 border-coral z-0 -translate-y-[50%]">
+        <span className="visually-hidden">
+          A decorative semicircle element, sand and coral colors, sitting inside the larger blue semicircle in the upper left corner.
+        </span>
+      </div>
       <div className="sm:col-start-2 sm:col-span-7 p-4 lg:p-0">
         <div className="flex flex-col items-center lg:hidden">
           <h2 className="text-4xl sm:text-6xl md:text-7xl pb-4 sm:p-4 font-accessdisplay font-bold uppercase">

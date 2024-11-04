@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
 .contact-parallelogram {
   --p: 50px; /* control the shape (can be percentage) */
   height: 250px;

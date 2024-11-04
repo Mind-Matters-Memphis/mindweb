@@ -12,7 +12,11 @@ export const Aging = () => {
         <div className="headline-bottom bg-sand p-4">
           <div className="p-3 pt-16 grid gap-4 justify-center">
             <div className="grid sm:grid-cols-4 lg:grid-cols-5 items-center max-w-[1100px]">
-              <div className="hidden cognitive-chevron sm:block h-36 bg-sage justify-self-center"></div>
+              <div className="hidden cognitive-chevron sm:block h-36 bg-sage justify-self-center">
+                <span className="visually-hidden">
+                  Curved chevron (arrow), sage color, serving as a decorative element, pointing at the cognitive aging evaluations paragraph.
+                </span>
+              </div>
               <p className="sm:col-start-2 sm:col-span-3">
                 <span className="font-bold">Cognitive Aging Evaluations</span>{" "}
                 at Mind Matters Memphis are for individuals who wish to
@@ -30,7 +34,11 @@ export const Aging = () => {
                 diagnosed with dementia, personal history of moderate or severe
                 traumatic brain injury (TBI), or repeated concussions.
               </p>
-              <div className="hidden cognitive-chevron sm:block bg-coral h-36 rotate-180 sm:col-start-4 lg:col-start-5 justify-self-center"></div>
+              <div className="hidden cognitive-chevron sm:block bg-coral h-36 rotate-180 sm:col-start-4 lg:col-start-5 justify-self-center">
+                <span className="visually-hidden">
+                  Curved chevron (arrow), coral color, serving as a decorative element, pointing at the increased risk factors paragraph.
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -101,8 +109,16 @@ export const Aging = () => {
         </div>
       </div>
       <div className="bg-dust grid md:grid-cols-4 xl:grid-cols-5 py-8 lg:py-16">
-        <div className="contact-curved-top bg-sage h-[10dvh] w-full md:hidden"></div>
-        <div className="hidden xl:block xl:col-start-1 contact-curved-left bg-sage w-[15dvw] h-full justify-self-end"></div>
+        <div className="contact-curved-top bg-sage h-[10dvh] w-full md:hidden">
+          <span className="visually-hidden">
+            Curved top edge art, sage color, serving as a decorative element on smaller screens.
+          </span>
+        </div>
+        <div className="hidden xl:block xl:col-start-1 contact-curved-left bg-sage w-[15dvw] h-full justify-self-end">
+          <span className="visually-hidden">
+            Curved left edge art, sage color, serving as a decorative element on larger screens.
+          </span>
+        </div>
         <div className="grid justify-center md:col-start-1 md:col-span-3 xl:col-start-2">
           <div className="text-midnight bg-dust grid gap-4 justify-center relative text-xl py-8 sm:p-8 md:gap-8 md:max-w-[700px] md:py-16">
             <h2 className="text-4xl sm:text-6xl md:text-7xl text-center font-accessdisplay font-bold uppercase">
@@ -133,8 +149,16 @@ export const Aging = () => {
             </div>
           </div>
         </div>
-        <div className="contact-curved-right bg-sage w-[22dvw] h-full hidden md:block justify-self-start xl:w-[15dvw]"></div>
-        <div className="contact-curved-bottom bg-sage h-[10dvh] w-full md:hidden"></div>
+        <div className="contact-curved-right bg-sage w-[22dvw] h-full hidden md:block justify-self-start xl:w-[15dvw]">
+          <span className="visually-hidden">
+            Curved right edge art, sage color, serving as a decorative element on larger screens.
+          </span>
+        </div>
+        <div className="contact-curved-bottom bg-sage h-[10dvh] w-full md:hidden">
+          <span className="visually-hidden">
+            Curved bottom edge art, sage color, serving as a decorative element on smaller screens.
+          </span>
+        </div>
       </div>
       <div>
         <div className="cognitive-curved-edge bg-inlet flex justify-center items-center sm:w-4/5 md:w-3/5 sm:mx-auto">
@@ -145,7 +169,7 @@ export const Aging = () => {
         <div className="sm:w-3/4 md:w-1/2 xl:w-2/5 sm:mx-auto p-4 md:pt-8 md:pb-16">
           <div className="grid gap-4 p-4 justify-items-center">
             <div className="grid gap-4">
-              <h4 className="font-bold">Cognitive Aging Evaluations</h4>
+              <h3 className="font-bold">Cognitive Aging Evaluations</h3>
               <p>
                 These are appropriate for individuals 70 or older with signs of
                 memory loss. The evaluation includes a review of relevant
@@ -157,9 +181,13 @@ export const Aging = () => {
                 <span className="text-midnight font-semibold">$1,000</span>
               </div>
             </div>
-            <div className="cognitive-sparkle bg-inlet h-24 w-16"></div>
+            <div className="cognitive-sparkle bg-inlet h-24 w-16">
+              <span className="visually-hidden">
+                Small blue star, serving to delineate items.
+              </span>
+            </div>
             <div className="grid gap-4">
-              <h4 className="font-bold">Education Sessions</h4>
+              <h3 className="font-bold">Education Sessions</h3>
               <p>
                 Sessions with caregivers (i.e., family members or paid
                 caregivers) to discuss disease characteristics, care planning,
@@ -170,9 +198,13 @@ export const Aging = () => {
                 <span className="text-midnight font-semibold">$250/hour</span>
               </div>
             </div>
-            <div className="cognitive-sparkle bg-inlet h-24 w-16"></div>
+            <div className="cognitive-sparkle bg-inlet h-24 w-16">
+              <span className="visually-hidden">
+                Small blue star, serving to delineate items.
+              </span>
+            </div>
             <div className="grid gap-4">
-              <h4 className="font-bold">Additional Services</h4>
+              <h3 className="font-bold">Additional Services</h3>
               <p>
                 Additional results and recommendations appointments,
                 consultation with other providers or family members, etc. Rate
@@ -183,16 +215,24 @@ export const Aging = () => {
                 <span className="text-midnight font-semibold">$250/hour</span>
               </div>
             </div>
-            <div className="cognitive-sparkle bg-inlet h-24 w-16"></div>
+            <div className="cognitive-sparkle bg-inlet h-24 w-16">
+              <span className="visually-hidden">
+                Small blue star, serving to delineate items.
+              </span>
+            </div>
             <div className="grid gap-4">
-              <h4 className="font-bold">Bring Someone Along!</h4>
+              <h3 className="font-bold">Bring Someone Along!</h3>
               <p>
                 Patients undergoing a cognitive evaluation should bring someone
                 to any and all appointments who can provide perspective on their
                 cognition and daily functioning.
               </p>
             </div>
-            <div className="cognitive-sparkle bg-inlet h-24 w-16"></div>
+            <div className="cognitive-sparkle bg-inlet h-24 w-16">
+              <span className="visually-hidden">
+                Small blue star, serving to delineate items.
+              </span>
+            </div>
             <div className="grid gap-4 pb-8">
               <p>
                 While not a Medicare provider, Mind Matters Memphis guarantees

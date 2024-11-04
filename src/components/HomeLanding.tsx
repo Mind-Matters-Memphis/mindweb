@@ -4,7 +4,7 @@ export const HomeLanding = () => {
   return ( 
     <div className="bg-sand w-full h-1/4 font-accessbody grid grid-cols-5">
       <div className="col-span-5 lg:col-start-2 lg:col-span-3 self-center justify-self-center pt-4 pb-6 md:py-12 md:max-w-[800px] xl:max-w-[1000px]">
-        <img src={logo} className="h-fit w-fit object-cover p-6 sm:px-8 sm:py-8"></img>
+        <img src={logo} className="h-fit w-fit object-cover p-6 sm:px-8 sm:py-8" alt="Mind Matters Memphis logo, with the 3 'M's depicting a bridge, which sits above the company name."></img>
         <h1 className="text-xl sm:text-3xl xl:text-4xl flex flex-col gap-2 items-center text-midnight">
           <div className="sm:hidden flex flex-col items-center italic">
             <span>Adult Clinical</span>

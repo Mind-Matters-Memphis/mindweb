@@ -8,13 +8,22 @@ export const Contact = () => {
     <div className="text-accessbody">
       <div className="bg-dust text-midnight text-xl py-8 sm:p-8 flex flex-col gap-8">
         <div className="contact-parallelogram bg-sand h-40 sm:h-50 md:h-64 flex flex-col justify-center justify-self-center mx-4 sm:mx-12 shadow-2xl">
+          <span className="visually-hidden">
+            A decorative parallelogram element, sand color, framing the header
+            content.
+          </span>
           <h1 className="text-midnight text-5xl sm:text-7xl xl:text-8xl font-accessdisplay font-bold uppercase text-center flex flex-col justify-center items-center">
             Contact
           </h1>
         </div>
         <div className="md:grid md:grid-cols-9">
           <div className="hidden md:col-span-2 md:flex justify-end items-center mr-[12%]">
-            <div className="contact-chevron bg-inlet h-0 md:h-44 lg:h-56"></div>
+            <div className="contact-chevron bg-inlet h-0 md:h-44 lg:h-56">
+              <span className="visually-hidden">
+                A decorative chevron element, big sky blue color, pointing right
+                to the contact information (phone and email).
+              </span>
+            </div>
           </div>
           <div className="sm:px-8 md:col-span-6 xl:col-span-5 flex flex-col">
             <p className="p-4 pt-0">
@@ -49,8 +58,18 @@ export const Contact = () => {
         </div>
       </div>
       <div className="bg-dust grid md:grid-cols-4 xl:grid-cols-5">
-        <div className="contact-curved-top bg-sage h-[10dvh] w-full md:hidden"></div>
-        <div className="hidden xl:block xl:col-start-1 contact-curved-left bg-sage w-[15dvw] h-full justify-self-end"></div>
+        <div className="contact-curved-top bg-sage h-[10dvh] w-full md:hidden">
+          <span className="visually-hidden">
+            A decorative curved element, sage green color, framing the top of
+            the contact referrals on smaller screens.
+          </span>
+        </div>
+        <div className="hidden xl:block xl:col-start-1 contact-curved-left bg-sage w-[15dvw] h-full justify-self-end">
+          <span className="visually-hidden">
+            A decorative curved element, sage green color, framing the left side
+            of the referrals section on larger screens.
+          </span>
+        </div>
         <div className="grid justify-center md:col-start-1 md:col-span-3 xl:col-start-2">
           <div className="text-midnight bg-dust grid gap-4 justify-center relative text-xl py-8 sm:p-8 md:gap-8 md:max-w-[700px] md:py-16">
             <h2 className="text-4xl sm:text-6xl md:text-7xl text-center font-accessdisplay font-bold uppercase">
@@ -90,13 +109,28 @@ export const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="contact-curved-right bg-sage w-[22dvw] h-full hidden md:block justify-self-start xl:w-[15dvw]"></div>
-        <div className="contact-curved-bottom bg-sage h-[10dvh] w-full md:hidden"></div>
+        <div className="contact-curved-right bg-sage w-[22dvw] h-full hidden md:block justify-self-start xl:w-[15dvw]">
+          <span className="visually-hidden">
+            A decorative curved element, sage green color, framing the right
+            side of the referrals section on larger screens.
+          </span>
+        </div>
+        <div className="contact-curved-bottom bg-sage h-[10dvh] w-full md:hidden">
+          <span className="visually-hidden">
+            A decorative curved element, sage green color, framing the bottom of
+            the referrals section on smaller screens.
+          </span>
+        </div>
       </div>
       <div className="bg-dust text-xl text-midnight py-8">
         <div className="contact-ribbon text-bold text-4xl text-dust bg-inlet flex p-4 pl-0 sm:pl-4 justify-center w-[95%] md:w-[90%]">
           <div className="sm:pl-[2.5%] md:pl-[5%] flex items-center gap-2 sm:gap-4">
-            <MapPin className="h-10 w-10 md:h-16 md:w-16" />
+            <MapPin className="h-10 w-10 md:h-16 md:w-16">
+              <span className="visually-hidden">
+                A map pin icon, white color on the blue background, indicating
+                office location section.
+              </span>
+            </MapPin>
             <h2 className="text-4xl sm:text-6xl md:text-7xl text-center font-accessdisplay font-bold uppercase pt-1 sm:pt-2">
               Office Location
             </h2>
@@ -117,7 +151,12 @@ export const Contact = () => {
             <div className="block sm:flex justify-center items-center">
               <p className="font-bold sm: pr-6">Directions:</p>
               <div className="flex items-center justify-center pt-2 sm:pt-0 gap-2 sm:gap-4 md:gap-6">
-                <MapPin className="h-12 w-12 text-coral" />
+                <MapPin className="h-12 w-12 text-coral">
+                  <span className="visually-hidden">
+                    A map pin icon, coral color, highlighting neighboring Google
+                    Maps link to office location.
+                  </span>
+                </MapPin>
                 <a
                   href="https://maps.app.goo.gl/9RzA1WMAE9NfWH1B6"
                   className="underline"
@@ -137,9 +176,9 @@ export const Contact = () => {
             </div>
             <ul className="py-4 max-w-[500px]">
               <li className="py-2 lg:pb-12">
-                <p className="font-accessdisplay text-4xl">
+                <h4 className="font-accessdisplay text-4xl">
                   1. Ground Level Outside
-                </p>
+                </h4>
                 <p>
                   If you park outside on the ground level, there are two “banks”
                   of elevators in the lobby. Take the right bank, which goes to
@@ -147,7 +186,9 @@ export const Contact = () => {
                 </p>
               </li>
               <li className="py-2 lg:pt-12">
-                <p className="font-accessdisplay text-4xl">2. Parking Garage</p>
+                <h4 className="font-accessdisplay text-4xl">
+                  2. Parking Garage
+                </h4>
                 <p>
                   {`If you park in the garage (which is often easier), enter the parking
                   garage on the West side, bearing left to go to the upper part of
