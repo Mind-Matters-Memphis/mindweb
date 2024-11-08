@@ -12,52 +12,52 @@ export const Footer = () => {
       icon: Phone,
       imgName: "Phone icon",
       text: (
-        <p className="underline decoration-sage md:decoration-2">
-          901-776-7500
+        <p className="hover:underline active:underline decoration-sage md:decoration-2">
+          901-766-7500
         </p>
       ),
-      url: "tel:+19017767500",
+      url: "tel:+19017667500",
     },
     {
       icon: Fax,
       imgName: "Fax icon",
       text: (
-        <p className="underline decoration-sage md:decoration-2">
-          901-776-7550
+        <p className="hover:underline active:underline decoration-sage md:decoration-2">
+          901-766-7550
         </p>
       ),
-      url: "tel:+19017767550",
+      url: "tel:+19017667550",
     },
     {
       icon: Email,
       imgName: "Email icon",
       text: (
-        <p className="underline decoration-sage md:decoration-2">
-          gould@gouldmail.com
+        <p className="text-lg sm:text-xl hover:underline active:underline decoration-sage md:decoration-2">
+          info@mindmattersmemphis.com
         </p>
       ),
-      url: "mailto:gould@gouldmail.com",
+      url: "mailto:info@mindmattersmemphis.com",
     },
     {
       icon: Location,
       imgName: "Location icon",
       text: (
-        <p className="underline flex flex-col decoration-sage md:decoration-2">
+        <p className="hover:underline active:underline flex flex-col decoration-sage md:decoration-2">
           <span>5100 Poplar Ave, Suite 322</span>
           <span>Memphis, TN 38137</span>
         </p>
       ),
-      url: "https://maps.app.goo.gl/gebxzX7GRH19RUeA8",
+      url: "https://maps.app.goo.gl/9RzA1WMAE9NfWH1B6",
     },
   ];
 
   const listItemStyle = "py-2";
   const altLinkStyle =
-    "p-2 underline decoration-sage md:decoration-2 tracking-wide text-dust active:left-[1px] active:top-[2px] active:shadow-none";
+    "p-2 hover:underline active:underline decoration-sage md:decoration-2 tracking-wide text-dust active:left-[1px] active:top-[2px] active:shadow-none";
   return (
     <footer className="bg-midnight text-dust p-4 sm:p-8 text-xl peer-has-[[data-state=open]]:blur-sm">
       <div className="flex flex-col md:grid md:grid-rows-2 justify-center md:items-end border-b-2 border-sage lg:border-b-4">
-        <div className="self-center md:self-start border-b-2 border-sage md:border-b-0">
+        <div className="self-center md:self-start border-b-2 border-sage md:border-b-0 md:pt-6">
           <Link
             to="/"
             className="flex justify-center cursor-pointer py-4"
@@ -72,9 +72,9 @@ export const Footer = () => {
             />
           </Link>
         </div>
-        <div className="flex flex-col mx-auto md:flex-row md:justify-between md:mx-0 md:gap-10 lg:gap-48 xl:gap-96">
+        <div className="flex flex-col mx-auto md:flex-row md:justify-between md:mx-0 md:gap-10 lg:gap-48 xl:gap-96 md:pb-4">
           <div className="pb-4 grid justify-start">
-            <h2 className="p-2 pt-4 md:pt-2 text-2xl font-accessdisplay">
+            <h2 className="p-2 pt-4 md:pt-2 text-2xl font-accessdisplay tracking-wider">
               Get in Touch:
             </h2>
             <div className="flex flex-col items-center">
@@ -92,10 +92,10 @@ export const Footer = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center md:self-start pb-4">
-            <h2 className="p-2 md:pb-4 text-2xl font-accessdisplay">
+            <h2 className="p-2 md:pb-4 text-2xl font-accessdisplay tracking-wider">
               Site Navigation:
             </h2>
-            <ul className="flex flex-col justify-between md:gap-6 md:items-start">
+            <ul className="flex flex-col justify-between md:gap-2 md:items-start">
               <li className={listItemStyle}>
                 <Link
                   to="/clinical-neuropsychology#main-content"

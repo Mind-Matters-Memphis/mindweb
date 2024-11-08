@@ -14,7 +14,7 @@ export default {
   	fontFamily: {
   		altdisplay: ['Reem Kufi',  "ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"],
   		accessdisplay: ["Bebas", "Times New Roman", "Times", "serif"],
-  		accessbody: ["Tahoma", "Times New Roman", "Times", "sans-serif"]
+  		accessbody: ["Calibri", "Tahoma", "Times New Roman", "Times", "sans-serif"]
   	},
   	extend: {
   		borderWidth: {

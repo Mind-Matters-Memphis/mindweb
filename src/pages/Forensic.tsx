@@ -24,7 +24,7 @@ export const Forensic = () => {
             Objective, Independent Neuropsychological Evaluations
           </h1>
           <div className="grid justify-items-center">
-            <div className="text-sand p-4 pb-12 max-w-[624px]">
+            <div className="text-dust p-4 pb-12 max-w-[624px]">
               <h2 className="font-bold text-2xl pb-2">Offering:</h2>
               <ul className="list-disc grid gap-4">
                 <li>
@@ -58,6 +58,30 @@ export const Forensic = () => {
                   </p>
                 </li>
               </ul>
+              <div className="pt-8">
+                <p className="italic">
+                  For an initial consultation regarding your case, please
+                  contact{" "}
+                  <a
+                    href="tel:+19017667500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline"
+                  >
+                    901-766-7500
+                  </a>{" "}
+                  or email{" "}
+                  <a
+                    href="mailto:info@mindmattersmemphis.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline"
+                  >
+                    info@mindmattersmemphis.com
+                  </a>
+                  .
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -144,28 +168,6 @@ export const Forensic = () => {
                 <p>
                   If your client or loved one’s cognition is changing, it may be
                   time to have an independent cognitive evaluation.
-                </p>
-                <p>
-                  For an initial consultation regarding your case, please
-                  contact{" "}
-                  <a
-                    href="tel:+19017767500"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline"
-                  >
-                    901-776-7500
-                  </a>{" "}
-                  or email{" "}
-                  <a
-                    href="mailto:info@mindmattersmemphis.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline"
-                  >
-                    info@mindmattersmemphis.com
-                  </a>
-                  .
                 </p>
               </div>
             </div>

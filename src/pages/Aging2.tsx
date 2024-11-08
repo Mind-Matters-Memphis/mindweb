@@ -1,6 +1,5 @@
 import { useEffect } from "react";
-import { Circle, HandHeart } from "lucide-react";
-// could use Brain icon instead of HandHeart
+import { Circle } from "lucide-react";
 
 export const Aging = () => {
   useEffect(() => {
@@ -54,15 +53,6 @@ export const Aging = () => {
                   element, pointing at the increased risk factors paragraph.
                 </span>
               </div>
-            </div>
-            <div className="grid sm:grid-cols-4 lg:grid-cols-5 items-center max-w-[1100px] pt-4">
-              <p className="sm:col-start-2 sm:col-span-3 lg:col-start-2 italic">
-                <span className="font-bold">Bring someone along!</span> Patients
-                undergoing a cognitive evaluation should bring someone to any
-                and all appointments who can provide perspective on their
-                cognition and daily functioning.
-              </p>
-              <HandHeart className="hidden sm:block text-inlet h-16 w-16 sm:col-start-1 lg:col-start-1 row-start-1 self-center justify-self-center" />
             </div>
           </div>
         </div>
@@ -129,10 +119,9 @@ export const Aging = () => {
                 </h3>
                 <p>
                   Dr. Gould will share results and recommendations. This
-                  appointment will focus on ways to promote healthy aging. Dr.
-                  Gould will provide self-oriented action steps to implement in
-                  the individual’s daily life, tailored to their specific needs
-                  and lifestyle.
+                  appointment will focus on steps to promote healthy aging, with
+                  self-oriented action steps to implement in the individual’s
+                  daily life, tailored to their specific needs and lifestyle.
                 </p>
                 <p>
                   Depending on the results, a follow-up plan can include repeat
@@ -143,25 +132,35 @@ export const Aging = () => {
           </div>
         </div>
       </div>
-      <div className="bg-dust grid md:grid-cols-4 2xl:grid-cols-6 pt-8 lg:pt-16">
-        <div className="grid justify-center md:col-start-1 md:col-span-3 2xl:col-start-2">
-          <div className="text-midnight bg-dust grid gap-4 justify-center relative text-xl py-8 sm:p-8 md:gap-8 md:max-w-[768px] md:py-16">
-            <div className="px-8 sm:px-0 text-3xl sm:text-4xl md:text-5xl text-center font-accessdisplay font-bold uppercase">
-              <h2 className="">Benefits of a Cognitive Aging Evaluation</h2>
-            </div>
+      <div className="bg-dust grid md:grid-cols-4 xl:grid-cols-5 py-8 lg:py-16">
+        <div className="contact-curved-top bg-sage h-[10dvh] w-full md:hidden">
+          <span className="visually-hidden">
+            Curved top edge art, sage color, serving as a decorative element on
+            smaller screens.
+          </span>
+        </div>
+        <div className="hidden xl:block xl:col-start-1 contact-curved-left bg-sage w-[15dvw] h-full justify-self-end">
+          <span className="visually-hidden">
+            Curved left edge art, sage color, serving as a decorative element on
+            larger screens.
+          </span>
+        </div>
+        <div className="grid justify-center md:col-start-1 md:col-span-3 xl:col-start-2">
+          <div className="text-midnight bg-dust grid gap-4 justify-center relative text-xl py-8 sm:p-8 md:gap-8 md:max-w-[700px] md:py-16">
+            <h2 className="text-4xl sm:text-6xl md:text-7xl text-center font-accessdisplay font-bold uppercase">
+              Evaluation Benefits
+            </h2>
             <div>
-              <ul className="pl-4 pr-8 grid gap-4">
+              <ul className="px-4 grid gap-4">
                 <li className="flex gap-4 ">
-                  <span className="h-5 w-5 rounded-full bg-sage content-[''] shrink-0 mt-1 md:hidden"></span>
-                  <Circle className="hidden md:block text-sage h-6 w-6 shrink-0 mt-1" />
+                  <Circle className="text-sage h-6 w-6 flex-shrink-0 mt-1" />
                   <p>
                     Provide answers to cognitive aging questions, or reassurance
                     that a person is cognitively aging normally
                   </p>
                 </li>
                 <li className="flex gap-4">
-                  <span className="h-5 w-5 rounded-full bg-sage content-[''] shrink-0 mt-1 md:hidden"></span>
-                  <Circle className="hidden md:block text-sage h-6 w-6 flex-shrink-0 mt-1" />
+                  <Circle className="text-sage h-6 w-6 flex-shrink-0 mt-1" />
                   <p>
                     Inform a lifestyle, family, health, and/or medical plan to
                     promote healthy cognitive aging and maximize existing
@@ -169,31 +168,29 @@ export const Aging = () => {
                   </p>
                 </li>
                 <li className="flex gap-4">
-                  <span className="h-5 w-5 rounded-full bg-sage content-[''] shrink-0 mt-1 md:hidden"></span>
-                  <Circle className="hidden md:block text-sage h-6 w-6 flex-shrink-0 mt-1" />
+                  <Circle className="text-sage h-6 w-6 flex-shrink-0 mt-1" />
                   <p>Establish a cognitive baseline for any future concern</p>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        <div className="contact-chevron rotate-180 bg-sage h-1/2 lg:h-2/3 hidden md:block self-center justify-self-start 2xl:justify-self-center">
+        <div className="contact-curved-right bg-sage w-[22dvw] h-full hidden md:block justify-self-start xl:w-[15dvw]">
           <span className="visually-hidden">
-            Chevron arrow art, sage color, serving as a decorative element on
-            larger screens.
+            Curved right edge art, sage color, serving as a decorative element
+            on larger screens.
+          </span>
+        </div>
+        <div className="contact-curved-bottom bg-sage h-[10dvh] w-full md:hidden">
+          <span className="visually-hidden">
+            Curved bottom edge art, sage color, serving as a decorative element
+            on smaller screens.
           </span>
         </div>
       </div>
       <div>
-        <div className="relative min-h-[288px] xl:min-h-[480px] bg-dust flex justify-center items-center">
-          <span className="visually-hidden">
-            A decorative parallelogram element, sky blue color, that runs the
-            width of the page and serves as the backdrop for the section title.
-          </span>
-          <div className="absolute top-0 right-0 border-t-[96px] xl:border-t-[192px] border-t-dust border-b-0 border-r-100w border-r-inlet"></div>
-          <div className="absolute h-24 w-full bg-inlet"></div>
-          <div className="absolute bottom-0 left-0 border-b-[96px] xl:border-b-[192px] border-dust border-t-0 border-l-100w border-l-inlet"></div>
-          <h2 className="text-4xl sm:text-6xl md:text-7xl text-center font-accessdisplay font-bold uppercase text-dust relative z-50">
+        <div className="cognitive-curved-edge bg-inlet flex justify-center items-center sm:w-4/5 md:w-3/5 sm:mx-auto">
+          <h2 className="text-4xl sm:text-6xl md:text-7xl text-center font-accessdisplay font-bold uppercase text-dust pt-24 pb-8">
             Details and Fees:
           </h2>
         </div>
@@ -212,9 +209,9 @@ export const Aging = () => {
                 <span className="text-midnight font-semibold">$1,000</span>
               </div>
             </div>
-            <div className="cognitive-parallelogram-mini bg-inlet w-40 m-4">
+            <div className="cognitive-sparkle bg-inlet h-24 w-16">
               <span className="visually-hidden">
-                Small blue parallelogram, serving to delineate items.
+                Small blue star, serving to delineate items.
               </span>
             </div>
             <div className="grid gap-4">
@@ -229,9 +226,9 @@ export const Aging = () => {
                 <span className="text-midnight font-semibold">$250/hour</span>
               </div>
             </div>
-            <div className="cognitive-parallelogram-mini bg-inlet w-40 m-4">
+            <div className="cognitive-sparkle bg-inlet h-24 w-16">
               <span className="visually-hidden">
-                Small blue parallelogram, serving to delineate items.
+                Small blue star, serving to delineate items.
               </span>
             </div>
             <div className="grid gap-4">
@@ -246,9 +243,22 @@ export const Aging = () => {
                 <span className="text-midnight font-semibold">$250/hour</span>
               </div>
             </div>
-            <div className="cognitive-parallelogram-mini bg-inlet w-40 m-4">
+            <div className="cognitive-sparkle bg-inlet h-24 w-16">
               <span className="visually-hidden">
-                Small blue parallelogram, serving to delineate items.
+                Small blue star, serving to delineate items.
+              </span>
+            </div>
+            <div className="grid gap-4">
+              <h3 className="font-bold">Bring Someone Along!</h3>
+              <p>
+                Patients undergoing a cognitive evaluation should bring someone
+                to any and all appointments who can provide perspective on their
+                cognition and daily functioning.
+              </p>
+            </div>
+            <div className="cognitive-sparkle bg-inlet h-24 w-16">
+              <span className="visually-hidden">
+                Small blue star, serving to delineate items.
               </span>
             </div>
             <div className="grid gap-4 pb-8">

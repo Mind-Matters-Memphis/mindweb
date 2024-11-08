@@ -45,8 +45,8 @@ export const About = () => {
             brain health.
           </p>
         </div>
-        <div className="flex justify-center sm:p-4 md:p-8 md:pt-16">
-          {/* <div className="grid gap-8 sm:p-8 md:grid-cols-3 md:grid-rows-3 md:gap-12 max-w-[1000px] items-center">
+        <div className="flex justify-center">
+          <div className="grid gap-8 sm:p-8 md:grid-cols-3 md:grid-rows-3 md:gap-12 max-w-[1000px] items-center">
             <p className="p-4 rounded-xl sm:rounded-none bg-dust md:col-span-2 border-8 border-sage quote-frame-sage">
               "Having a neurological illness can be associated with limitations
               to daily life. I get to provide patients with individualized plans
@@ -66,27 +66,6 @@ export const About = () => {
               especially on the more social & mental health side which can
               traditionally be overlooked in a regular office setting."
             </p>
-          </div> */}
-          <div className="flex flex-col gap-4 sm:p-8 md:p-12 max-w-[768px] items-center border-8 bg-dust border-sage quote-frame-sage">
-            <p className="">
-              "Having a neurological illness can be associated with limitations
-              to daily life. I get to provide patients with individualized plans
-              of care to help{" "}
-              <span className="italic font-bold">maximize quality of life</span>{" "}
-              within their own health context."
-            </p>
-            <p className="">
-              "Neurospychology as a profession shares overlap between
-              understanding the whole person, their psychology, and how they
-              exist in the world with the more medical and objective test
-              results."
-            </p>
-            <p className="">
-              "My goal as a healthcare provider is to meet my patients where
-              they are and give them a space where they can feel heard,
-              especially on the more social & mental health side which can
-              traditionally be overlooked in a regular office setting."
-            </p>
           </div>
         </div>
         <p className="max-w-prose p-4 md:p-8">
@@ -98,7 +77,7 @@ export const About = () => {
           University of Virginia.
         </p>
         <div>
-          <p className="max-w-prose p-4 pt-0 md:p-8 md:pt-0">
+          <p className="max-w-prose p-4 md:p-8">
             Visit our{" "}
             <a className="underline" href="/contact">
               Contact page
