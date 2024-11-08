@@ -111,8 +111,8 @@ export const Contact = () => {
         <div className="hidden md:col-start-4 md:col-span-1 md:flex justify-start items-center xl:col-start-5">
           <div className="contact-chevron rotate-180 bg-sage h-0 md:h-56 lg:h-72 -mt-32">
             <span className="visually-hidden">
-              A decorative chevron element, big sky blue color, pointing right
-              to the contact information (phone and email).
+              A decorative chevron element, sage green color, pointing left to
+              the referral information.
             </span>
           </div>
         </div>
@@ -172,7 +172,9 @@ export const Contact = () => {
           </div>
           <div className="grid items-center p-4 lg:grid-cols-2 lg:gap-8">
             <div>
-              <h2 className="text-4xl font-accessdisplay text-center p-4 lg:pb-12">Parking Options</h2>
+              <h2 className="text-4xl font-accessdisplay text-center p-4 lg:pb-12">
+                Parking Options
+              </h2>
               <ul className="py-4 max-w-[500px]">
                 <li className="py-2 lg:pb-12">
                   <h4 className="text-2xl font-bold">
@@ -185,9 +187,7 @@ export const Contact = () => {
                   </p>
                 </li>
                 <li className="py-2 lg:pt-12">
-                  <h4 className="text-2xl font-bold">
-                    2. Parking Garage
-                  </h4>
+                  <h4 className="text-2xl font-bold">2. Parking Garage</h4>
                   <p>
                     {`If you park in the garage (which is often easier), enter the parking
                   garage on the West side, bearing left to go to the upper part of
