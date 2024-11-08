@@ -17,7 +17,7 @@ type Props = {
   service: Service;
   accent: Accent;
 }
-export const ServiceBlock = ({ invert, service, accent }: Props) => {
+export const ServiceBlock = ({ invert, service }: Props) => {
 
   const iconStyle = `h-full w-auto text-coral`
   const col1 = !invert ? " col-start-2" : " col-start-1";

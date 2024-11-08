@@ -12,43 +12,48 @@ import { Contact } from "./pages/Contact";
 import { Forms } from "./pages/Forms";
 import "./index.css";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Root />,
+      errorElement: <Error />,
+      children: [
+        {
+          index: true,
+          element: <Home />,
+        },
+        {
+          path: "/meet-dr-gould",
+          element: <About />,
+        },
+        {
+          path: "/clinical-neuropsychology",
+          element: <Clinical />,
+        },
+        {
+          path: "/forensic-evaluations",
+          element: <Forensic />,
+        },
+        {
+          path: "/cognitive-aging",
+          element: <Aging />,
+        },
+        {
+          path: "/contact",
+          element: <Contact />,
+        },
+        {
+          path: "/forms",
+          element: <Forms />,
+        },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <Root />,
-    errorElement: <Error />,
-    children: [
-      {
-        index: true,
-        element: <Home />,
-      },
-      {
-        path: "/meet-dr-gould",
-        element: <About />,
-      },
-      {
-        path: "/clinical-neuropsychology",
-        element: <Clinical />,
-      },
-      {
-        path: "/forensic-evaluations",
-        element: <Forensic />,
-      },
-      {
-        path: "/cognitive-aging",
-        element: <Aging />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
-      },
-      {
-        path: "/forms",
-        element: <Forms />,
-      }
-    ],
+    basename: "/mindweb",
   },
-]);
+);
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

@@ -19,7 +19,7 @@ type Props = {
   service: Service;
 };
 export const ServiceBlock = ({ service }: Props) => {
-  // remove
+  // remove 
   return (
     <div
       className={
