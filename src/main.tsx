@@ -10,6 +10,8 @@ import { Forensic } from "./pages/Forensic";
 import { Aging } from "./pages/Aging";
 import { Contact } from "./pages/Contact";
 import { Forms } from "./pages/Forms";
+//
+import { HomeAlt } from "./pages/HomeAlt";
 import "./index.css";
 
 const router = createBrowserRouter(
@@ -22,6 +24,10 @@ const router = createBrowserRouter(
         {
           index: true,
           element: <Home />,
+        },
+        {
+          path: "/home-alt",
+          element: <HomeAlt />,
         },
         {
           path: "/meet-dr-gould",
