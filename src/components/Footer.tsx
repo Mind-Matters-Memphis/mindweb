@@ -106,24 +106,24 @@ export const Footer = () => {
               </li>
               <li className={listItemStyle}>
                 <Link
-                  to="/forensic-evaluations#main-content"
+                  to="/forensic-evaluations#top"
                   className={altLinkStyle}
                 >
                   <span className="z-20">Forensic Evaluations</span>
                 </Link>
               </li>
               <li className={listItemStyle}>
-                <Link to="/cognitive-aging" className={altLinkStyle}>
+                <Link to="/cognitive-aging#top" className={altLinkStyle}>
                   <span className="z-20">Healthy Cognitive Aging</span>
                 </Link>
               </li>
               <li className={listItemStyle}>
-                <Link to="/meet-dr-gould" className={altLinkStyle}>
+                <Link to="/meet-dr-gould#top" className={altLinkStyle}>
                   <span className="">Meet Dr. Gould</span>
                 </Link>
               </li>
               <li className={listItemStyle}>
-                <Link to="/forms" className={altLinkStyle}>
+                <Link to="/forms#top" className={altLinkStyle}>
                   <span className="">Forms</span>
                 </Link>
               </li>

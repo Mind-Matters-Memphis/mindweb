@@ -8,6 +8,7 @@ export const Root = () => {
   // <Outlet /> is where the child routes are rendered
   return ( 
     <div className="font-accessbody bg-dust">
+      <div id="top"></div>
       <a href="#main-content" className="focusable visually-hidden text-midnight text-2xl">Skip to main content</a>
       <NavMenu />
       <NavMenuMobile />

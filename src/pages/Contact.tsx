@@ -193,9 +193,11 @@ export const Contact = () => {
                   garage on the West side, bearing left to go to the upper part of
                   Level 3. You'll see a sign for the entrance to Tower Room, and glass
                   doors leading to the 3rd floor (our floor). You may park in any
-                  space labeled for guests. When entering the third floor from the
-                  parking garage, our suite is at the end of the first hallway to the
-                  left.`}
+                  space labeled for guests.`}
+                  </p>
+                  <p className="pt-4">
+                    When entering the third floor from the parking garage, our
+                    suite is at the end of the first hallway to the left.
                   </p>
                 </li>
               </ul>

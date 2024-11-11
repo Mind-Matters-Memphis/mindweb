@@ -7,7 +7,7 @@ export const HomeServices = () => {
     {
       title: "Neuropsychological Assessments",
       text: "Comprehensive neuropsychological evaluations for individuals with cognitive concerns.",
-      url: "/clinical-neuropsychology",
+      url: "/clinical-neuropsychology#top",
       points: [
         "Lorem ipsum list item",
         "Lorem ipsum list item",
@@ -25,7 +25,7 @@ export const HomeServices = () => {
     {
       title: "Forensic Evaluations",
       text: "Expert forensic evaluations for legal matters involving cognitive health.",
-      url: "/forensic-evaluations",
+      url: "/forensic-evaluations#top",
       points: [
         "Lorem ipsum list item",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
@@ -42,7 +42,7 @@ export const HomeServices = () => {
     {
       title: "Cognitive Aging Evaluations",
       text: "Specialized care for individuals with memory disorders and their families.",
-      url: "/cognitive-aging",
+      url: "/cognitive-aging#top",
       points: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
         "Lorem ipsum list item",
