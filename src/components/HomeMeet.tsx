@@ -31,7 +31,7 @@ export const HomeMeet = () => {
               Dr. Amanda Gould founded Mind Matters Memphis to provide a more
               personalized clinical neuropsychology experience for her patients.
             </p>
-            <p className="text-4xl italic">
+            <p className="text-2xl italic">
               “As a boutique clinic, I’m able to offer a greater level of
               attention and time to the patient to ensure they feel heard and
               receive a plan of care that is specific to their needs, lifestyle,
@@ -46,7 +46,7 @@ export const HomeMeet = () => {
             <span>About Dr. Gould</span>
           </Link>
         </div>
-        <div className="hidden lg:grid lg:grid-cols-2 lg:grid-rows-5 justify-center justify-items-center py-12 z-10 relative">
+        <div className="hidden lg:grid lg:grid-cols-2 lg:grid-rows-5 justify-center justify-items-center items-center py-12 z-10 relative">
           <div className="lg:col-start-2 lg:row-span-5 self-center xl:px-8 2xl:px-16">
             <img
               src={portrait}
@@ -57,12 +57,12 @@ export const HomeMeet = () => {
           <h2 className="text-7xl p-4 font-accessdisplay font-bold uppercase text-center lg:col-start-1 lg:row-start-1">
             Meet Dr. Gould
           </h2>
-          <div className="p-4 xl:p-8 text-xl text-start flex flex-col gap-4 row-span-3">
+          <div className="p-4 pt-0 xl:p-8 xl:pt-0 text-xl text-start flex flex-col gap-4 row-span-3 justify-center lg:gap-8 2xl:gap-16">
             <p className="">
               Dr. Amanda Gould founded Mind Matters Memphis to provide a more
               personalized clinical neuropsychology experience for her patients.
             </p>
-            <p className="text-4xl italic text-midnight font-semibold">
+            <p className="text-2xl xl:text-4xl italic text-midnight">
               “As a boutique clinic, I’m able to offer a greater level of
               attention and time to the patient to ensure they feel heard and
               receive a plan of care that is specific to their needs, lifestyle,

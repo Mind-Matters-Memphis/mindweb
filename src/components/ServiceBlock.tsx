@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { IconType } from "react-icons";
 import { MdOutlineArrowRight as Arrow } from "react-icons/md";
+import "../assets/stylesheets/shapes.css"
 type Service = {
   title: string;
   text: string;
@@ -23,7 +24,7 @@ export const ServiceBlock = ({ service }: Props) => {
   return (
     <div
       className={
-        "py-4 sm:px-2 md:p-4 lg:p-8 border-2 rounded-3xl shadow-2xl max-w-3xl bg-gradient-to-tl to-dust z-20 " +
+        "border-4 rounded-md mx-4 md:rounded-none md:border-8 md:mx-12 max-w-3xl z-20 " +
         service.style
       }
     >

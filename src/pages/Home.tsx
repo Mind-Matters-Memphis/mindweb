@@ -20,14 +20,19 @@ export const Home = () => {
     <div className="bg-dust">
       <HomeLanding />
       <div className="bg-dust grid grid-cols-5 md:min-h-96 justify-end relative overflow-visible z-20">
-        <div className="border-l-12 md:border-l-16 border-t-33 border-b-33 border-dust border-l-inlet lg:hidden"></div>
+        <div className="hidden sm:block border-l-12 md:border-l-16 border-t-33 border-b-33 border-dust border-l-inlet lg:hidden">
+          <span className="visually-hidden">
+            A decorative triangle element, inlet color, pointing right at the
+            mission statement section.
+          </span>
+        </div>
         <div className="hidden lg:flex col-span-2 justify-center items-center">
           <img
             src={waiting}
             alt="Adult woman seated at a table, deep in thought."
           />
         </div>
-        <div className="mt-4 text-xl p-4 lg:px-8 xl:px-16 flex flex-col gap-4 justify-center xl:items-start max-w-[900px] bg-dust col-span-4 sm:col-start-2 lg:col-start-3 sm:col-span-3 lg:text-2xl lg:text-start lg:mt-10">
+        <div className="mt-4 text-xl p-4 px-8 xl:px-16 flex flex-col gap-4 justify-center xl:items-start max-w-[900px] bg-dust col-span-5 sm:col-start-2 lg:col-start-3 sm:col-span-3 lg:text-2xl lg:text-start lg:mt-10">
           <h2 className="text-inlet text-4xl sm:text-6xl xl:text-7xl font-accessdisplay font-bold uppercase text-center flex flex-col justify-center items-center">
             <span>Optimizing Brain Health</span>
           </h2>

@@ -15,7 +15,7 @@ export const HomeServices = () => {
       ],
       linkText: "Clinical Neuropsychology",
       // style: "xl:justify-self-end xl:mr-24 mt-10 border-inlet from-inlet/75",
-      style: "border-inlet from-inlet/75",
+      style: "border-inlet quote-frame-inlet",
       btnStyle: "border-inlet/75 hover:bg-inlet/15",
       color: "inlet",
       icon: Exo,
@@ -24,15 +24,15 @@ export const HomeServices = () => {
     },
     {
       title: "Forensic Evaluations",
-      text: "Expert forensic evaluations for legal matters involving cognitive health.",
+      text: "Objective, independent evaluations for legal matters involving cognitive health. Services include:",
       url: "/forensic-evaluations#top",
       points: [
-        "Lorem ipsum list item",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
-        "Lorem ipsum list item",
+        "Neuropsychological IMEs",
+        "Psychologidal-only IMEs",
+        "Testamentary Evaluations",
       ],
       linkText: "Forensic Evaluations",
-      style: "border-sage from-sage/75",
+      style: "border-sage quote-frame-sage",
       btnStyle: "border-sage/90 hover:bg-sage/25",
       color: "sage",
       icon: Cloud,
@@ -41,15 +41,16 @@ export const HomeServices = () => {
     },
     {
       title: "Cognitive Aging Evaluations",
-      text: "Specialized care for individuals with memory disorders and their families.",
+      text: "Specialized care for individuals with memory disorders and their families, designed to:",
       url: "/cognitive-aging#top",
       points: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
-        "Lorem ipsum list item",
+        "Maximize existing cognitive function",
+        "Promote healthy cognitive aging",
+        "Establish a cognitive baseline"
       ],
       linkText: "Cognitive Aging",
       // style: "xl:justify-self-start xl:ml-24 mb-10 border-coral from-coral/50",
-      style: "mb-10 border-coral from-coral/50",
+      style: "mb-10 border-coral quote-frame-coral",
       btnStyle: "border-coral/70 hover:bg-coral/15",
       color: "coral",
       icon: Honeycomb,
@@ -63,7 +64,7 @@ export const HomeServices = () => {
   }
 
   return (
-    <div className="pb-12 bg-dust relative grid gap-10 justify-center ">
+    <div className="pb-12 bg-dust relative grid gap-10 md:gap-16 justify-center ">
       {services.map((service, index) => (
         <ServiceBlock key={index} service={service} invert={index % 2 === 0} />
       ))}
