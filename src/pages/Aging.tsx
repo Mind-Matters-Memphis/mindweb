@@ -71,7 +71,7 @@ export const Aging = () => {
         <div className="absolute bottom-0 left-0 border-b-[96px] border-sage border-t-0 border-l-100w border-l-dust z-10"></div>
       </div>
       <div className="relative">
-        <div className="absolute bg-sage w-0 h-0 top-0 left-0 z-0 border-l-[50dvw] border-dust border-r-[50cqw] border-t-25 lg:border-t-25 border-t-sage">
+        <div className="absolute bg-sage w-0 h-0 top-0 left-0 z-0 border-l-[50dvw] border-dust border-r-[50cqw] border-t-[8rem] sm:border-t-[10rem] xl:border-t-25 border-t-sage">
           <span className="visually-hidden">
             A decorative triangle element, sage green color, pointing downward
             at the services section.
@@ -79,14 +79,14 @@ export const Aging = () => {
         </div>
       </div>
       <div>
-        <div className="pb-28">
-          <h2 className="underline text-4xl sm:text-6xl xl:text-7xl font-accessdisplay font-bold text-midnight text-center pt-12 pb-4 z-20 relative">
+        <div className="pb-12 sm:pb-16 xl:pb-20">
+          <h2 className="underline text-4xl sm:text-5xl xl:text-7xl font-accessdisplay font-bold text-midnight text-center xl:pt-12 pb-4 p-2 sm:pt-4 z-20 relative">
             What to Expect
           </h2>
         </div>
         <div className="p-4 sm:px-8 md:px-12 lg:px-16 grid justify-items-center gap-8">
           <p className="p-4 max-w-[600px] z-20">
-            A cognitive evaluation at Mind Matters Memphis will be more
+            A Cognitive Aging Evaluation at Mind Matters Memphis will be more
             comprehensive than a traditional dementia evaluation. The evaluation
             involves a three stage process: an initial interview, a
             comprehensive cognitive assessment, and a feedback session.

@@ -71,7 +71,7 @@ export const HomeMeet = () => {
           </div>
           <div className="flex justify-center items-center">
             <Link
-              to="/meet-dr-gould"
+              to="/meet-dr-gould#top"
               aria-label="About Dr. Gould"
               className="bg-dust/80 font-bold text-2xl p-6 px-12 rounded-lg transition-all ease-in-out duration-200 relative shadow-md lg:before:absolute lg:before:bottom-[27.5%] lg:before:left-[50%] lg:before:h-[3px] lg:before:w-0 lg:before:origin-center lg:before:rounded-sm lg:before:bg-coral lg:before:transition-all lg:before:duration-300 lg:before:ease-in-out lg:before:content-[''] lg:hover:before:left-[17.5%] lg:hover:before:w-[65%] active:left-[1px] active:top-[2px] active:shadow-none xl:mx-4"
             >

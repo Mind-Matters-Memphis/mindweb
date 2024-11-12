@@ -71,7 +71,7 @@ export const Contact = () => {
       <div className="bg-dust grid md:grid-cols-4 xl:grid-cols-6">
         <div className="grid justify-center md:col-start-1 md:col-span-3 xl:col-start-2">
           <div className="text-midnight bg-dust grid gap-4 justify-center relative text-xl py-8 sm:p-8 md:gap-8 md:max-w-[700px] md:py-16">
-            <h2 className="text-4xl sm:text-6xl md:text-7xl text-center font-accessdisplay font-bold uppercase">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center font-accessdisplay font-bold uppercase">
               Referrals
             </h2>
             <p className="px-8">
@@ -81,7 +81,7 @@ export const Contact = () => {
             </p>
             <p className="px-8">
               Please complete the referral form and fax it - along with patient
-              records - to (901)-766-7550.
+              records - to (901) 766-7550.
             </p>
             <button className="bg-dust/80 font-bold sm:text-2xl p-4 sm:p-6 sm:px-12 border-2 border-midnight w-fit h-fit justify-self-center rounded-lg transition-all ease-in-out duration-200 relative shadow-md before:absolute before:bottom-[27.5%] before:left-[50%] before:h-[3px] before:w-0 before:origin-center before:rounded-sm before:bg-coral before:transition-all before:duration-300 before:ease-in-out before:content-[''] sm:hover:before:left-[13%] sm:hover:before:w-[74%] active:left-[1px] active:top-[2px] active:shadow-none">
               Download Referral Form
@@ -152,7 +152,7 @@ export const Contact = () => {
                   </span>
                 </MapPin> */}
                 <a
-                  href="https://maps.app.goo.gl/9RzA1WMAE9NfWH1B6"
+                  href="https://maps.app.goo.gl/xzPcNcK3tTgqiAFS9"
                   className=""
                   target="_blank"
                   rel="noopener noreferrer"

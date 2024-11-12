@@ -86,7 +86,7 @@ export const Forensic = () => {
           </div>
         </div>
         <div className="grid justify-center bg-dust">
-          <div className="bg-dust p-8 grid lg:grid-cols-3 lg:grid-rows-2 max-w-[1000px] gap-8 lg:gap-16 lg:py-16">
+          <div className="bg-dust p-8 grid lg:grid-cols-3 lg:grid-rows-2 max-w-[1000px] gap-8 lg:gap-24 lg:pt-16 lg:pb-0">
             <div id="medical-evals" className="lg:col-span-2">
               <div className="forensic-parallelogram-wrap max-w-[600px]">
                 <div className="forensic-parallelogram bg-sage flex justify-center items-center w-[100%]">
