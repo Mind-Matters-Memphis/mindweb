@@ -10,5 +10,10 @@ export const Clinical = () => {
     }
   }, []);
 
-  return <div>Clinical Neuropsychology</div>;
+  return (
+  <div className="text-midnight bg-dust">
+    <h1>Clinical Neuropsychology</h1>
+    <p>This page is currently under construction!</p>
+  </div>
+  )
 };

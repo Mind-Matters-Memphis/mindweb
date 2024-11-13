@@ -32,11 +32,11 @@ export const Aging = () => {
                 </span>
               </div>
               <p className="sm:col-start-2 sm:col-span-3">
-                <span className="font-bold">Cognitive Aging Evaluations</span>{" "}
+                <span className="font-bold font-accessbold">Cognitive Aging Evaluations</span>{" "}
                 at Mind Matters Memphis are for individuals who wish to
                 establish a cognitive baseline, maintain their long-term brain
                 health, and encourage healthy cognitive aging.{" "}
-                <span className="italic">
+                <span className="italic font-accessitalic">
                   We aim to catch cognitive concerns early.
                 </span>
               </p>
@@ -56,11 +56,13 @@ export const Aging = () => {
               </div>
             </div>
             <div className="grid sm:grid-cols-4 lg:grid-cols-5 items-center max-w-[1100px] pt-4">
-              <p className="sm:col-start-2 sm:col-span-3 lg:col-start-2 italic">
-                <span className="font-bold">Bring someone along!</span> Patients
-                undergoing a cognitive evaluation should bring someone to any
-                and all appointments who can provide perspective on their
-                cognition and daily functioning.
+              <p className="sm:col-start-2 sm:col-span-3 lg:col-start-2 italic font-accessitalic">
+                <i>
+                  <span className="font-bold font-accessbold">Bring someone along!</span>{" "}
+                  Patients undergoing a cognitive evaluation should bring
+                  someone to any and all appointments who can provide
+                  perspective on their cognition and daily functioning.
+                </i>
               </p>
               <HandHeart className="hidden sm:block text-inlet h-16 w-16 sm:col-start-1 lg:col-start-1 row-start-1 self-center justify-self-center" />
             </div>
@@ -94,7 +96,7 @@ export const Aging = () => {
           <div className="grid justify-center">
             <ul className="grid gap-4 md:grid-cols-3 md:grid-rows-3 md:gap-12 max-w-[1000px]">
               <li className="border-4 border-inlet p-4 rounded-md grid gap-4 md:rounded-none md:border-8 md:col-span-2 quote-frame-inlet">
-                <h3 className="bg-inlet/55 text-midnight p-4 text-center rounded-sm font-bold h-fit text-2xl sm:mx-12">
+                <h3 className="bg-inlet/55 text-midnight p-4 text-center rounded-sm font-bold font-accessbold h-fit text-2xl sm:mx-12">
                   Initial Interview
                 </h3>
                 <p>
@@ -107,7 +109,7 @@ export const Aging = () => {
                 </p>
               </li>
               <li className="border-4 border-sage p-4 rounded-md grid gap-4 md:rounded-none md:border-8 md:row-start-2 md:col-start-2 md:col-span-2 quote-frame-sage">
-                <h3 className="bg-sage/75 text-midnight p-4 text-center rounded-sm font-bold h-fit text-2xl sm:mx-12">
+                <h3 className="bg-sage/75 text-midnight p-4 text-center rounded-sm font-bold font-accessbold h-fit text-2xl sm:mx-12">
                   Assessment
                 </h3>
                 <p>
@@ -124,7 +126,7 @@ export const Aging = () => {
                 </p>
               </li>
               <li className="border-4 border-coral p-4 rounded-md grid gap-4 md:rounded-none md:border-8 md:row-start-3 md:col-span-2 quote-frame-coral">
-                <h3 className="bg-coral/55 text-midnight p-4 text-center rounded-sm font-bold h-fit text-2xl sm:mx-12">
+                <h3 className="bg-coral/55 text-midnight p-4 text-center rounded-sm font-bold font-accessbold h-fit text-2xl sm:mx-12">
                   Feedback Session
                 </h3>
                 <p>
@@ -200,7 +202,7 @@ export const Aging = () => {
         <div className="sm:w-3/4 md:w-1/2 xl:w-2/5 sm:mx-auto p-4 md:pt-8 md:pb-16">
           <div className="grid gap-4 p-4 justify-items-center">
             <div className="grid gap-4">
-              <h3 className="font-bold">Cognitive Aging Evaluations</h3>
+              <h3 className="font-bold font-accessbold">Cognitive Aging Evaluations</h3>
               <p>
                 These are appropriate for individuals 70 or older with signs of
                 memory loss. The evaluation includes a review of relevant
@@ -218,7 +220,7 @@ export const Aging = () => {
               </span>
             </div>
             <div className="grid gap-4">
-              <h3 className="font-bold">Education Sessions</h3>
+              <h3 className="font-bold font-accessbold">Education Sessions</h3>
               <p>
                 Sessions with caregivers (i.e., family members or paid
                 caregivers) to discuss disease characteristics, care planning,
@@ -235,7 +237,7 @@ export const Aging = () => {
               </span>
             </div>
             <div className="grid gap-4">
-              <h3 className="font-bold">Additional Services</h3>
+              <h3 className="font-bold font-accessbold">Additional Services</h3>
               <p>
                 Additional results and recommendations appointments,
                 consultation with other providers or family members, etc. Rate

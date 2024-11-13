@@ -31,17 +31,19 @@ export const HomeMeet = () => {
               Dr. Amanda Gould founded Mind Matters Memphis to provide a more
               personalized clinical neuropsychology experience for her patients.
             </p>
-            <p className="text-2xl italic">
-              “As a boutique clinic, I’m able to offer a greater level of
-              attention and time to the patient to ensure they feel heard and
-              receive a plan of care that is specific to their needs, lifestyle,
-              and goals.”
+            <p className="text-2xl italic font-accessitalic">
+              <i>
+                “As a boutique clinic, I’m able to offer a greater level of
+                attention and time to the patient to ensure they feel heard and
+                receive a plan of care that is specific to their needs,
+                lifestyle, and goals.”
+              </i>
             </p>
           </div>
           <Link
             to="/meet-dr-gould"
             aria-label="About Dr. Gould"
-            className="bg-dust/80 font-bold text-2xl p-4 px-8 sm:p-6 sm:px-12 rounded-lg transition-all ease-in-out duration-200 relative shadow-md before:absolute before:bottom-[27.5%] before:left-[50%] before:h-[3px] before:w-0 before:origin-center before:rounded-sm before:bg-coral before:transition-all before:duration-300 before:ease-in-out before:content-[''] hover:before:left-[17.5%] hover:before:w-[65%] active:left-[1px] active:top-[2px] active:shadow-none"
+            className="bg-dust/80 font-bold font-accessbold text-2xl p-4 px-8 sm:p-6 sm:px-12 rounded-lg transition-all ease-in-out duration-200 relative shadow-md before:absolute before:bottom-[27.5%] before:left-[50%] before:h-[3px] before:w-0 before:origin-center before:rounded-sm before:bg-coral before:transition-all before:duration-300 before:ease-in-out before:content-[''] hover:before:left-[17.5%] hover:before:w-[65%] active:left-[1px] active:top-[2px] active:shadow-none"
           >
             <span>About Dr. Gould</span>
           </Link>
@@ -57,23 +59,25 @@ export const HomeMeet = () => {
           <h2 className="text-7xl p-4 font-accessdisplay font-bold uppercase text-center lg:col-start-1 lg:row-start-1">
             Meet Dr. Gould
           </h2>
-          <div className="p-4 pt-0 xl:p-8 xl:pt-0 text-xl text-start flex flex-col gap-4 row-span-3 justify-center lg:gap-8 2xl:gap-16">
-            <p className="">
+          <div className="p-4 pt-0 xl:p-8 xl:pt-0 text-xl text-start flex flex-col gap-4 row-span-3 justify-center lg:gap-8 2xl:gap-12">
+            <p className="2xl:pt-4">
               Dr. Amanda Gould founded Mind Matters Memphis to provide a more
               personalized clinical neuropsychology experience for her patients.
             </p>
-            <p className="text-2xl xl:text-4xl italic text-midnight">
-              “As a boutique clinic, I’m able to offer a greater level of
-              attention and time to the patient to ensure they feel heard and
-              receive a plan of care that is specific to their needs, lifestyle,
-              and goals.”
+            <p className="text-2xl xl:text-4xl italic font-accessitalic text-midnight">
+              <i>
+                “As a boutique clinic, I’m able to offer a greater level of
+                attention and time to the patient to ensure they feel heard and
+                receive a plan of care that is specific to their needs,
+                lifestyle, and goals.”
+              </i>
             </p>
           </div>
           <div className="flex justify-center items-center">
             <Link
               to="/meet-dr-gould#top"
               aria-label="About Dr. Gould"
-              className="bg-dust/80 font-bold text-2xl p-6 px-12 rounded-lg transition-all ease-in-out duration-200 relative shadow-md lg:before:absolute lg:before:bottom-[27.5%] lg:before:left-[50%] lg:before:h-[3px] lg:before:w-0 lg:before:origin-center lg:before:rounded-sm lg:before:bg-coral lg:before:transition-all lg:before:duration-300 lg:before:ease-in-out lg:before:content-[''] lg:hover:before:left-[17.5%] lg:hover:before:w-[65%] active:left-[1px] active:top-[2px] active:shadow-none xl:mx-4"
+              className="bg-dust/80 font-bold font-accessbold text-2xl p-6 px-12 rounded-lg transition-all ease-in-out duration-200 relative shadow-md lg:before:absolute lg:before:bottom-[27.5%] lg:before:left-[50%] lg:before:h-[3px] lg:before:w-0 lg:before:origin-center lg:before:rounded-sm lg:before:bg-coral lg:before:transition-all lg:before:duration-300 lg:before:ease-in-out lg:before:content-[''] lg:hover:before:left-[17.5%] lg:hover:before:w-[65%] active:left-[1px] active:top-[2px] active:shadow-none xl:mx-4"
             >
               <span>About Dr. Gould</span>
             </Link>

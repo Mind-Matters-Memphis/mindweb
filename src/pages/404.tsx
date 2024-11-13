@@ -35,7 +35,7 @@ export const Error = () => {
         <div className="p-4 pb-8 sm:p-12 flex justify-center">
           <Link
             to="/"
-            className="p-4 px-8 sm:p-6 sm:px-10 transition-all duration-500 ease-in-out border-4 border-inlet font-semibold text-2xl rounded-lg shadow-lg relative active:left-[1px] active:top-[2px] active:shadow-none"
+            className="p-4 px-8 sm:p-6 sm:px-10 transition-all duration-500 ease-in-out border-4 border-inlet font-semibold font-accessbold text-2xl rounded-lg shadow-lg relative active:left-[1px] active:top-[2px] active:shadow-none"
           >
             Return to Home
           </Link>

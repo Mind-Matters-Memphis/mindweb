@@ -83,7 +83,7 @@ export const Contact = () => {
               Please complete the referral form and fax it - along with patient
               records - to (901) 766-7550.
             </p>
-            <button className="bg-dust/80 font-bold sm:text-2xl p-4 sm:p-6 sm:px-12 border-2 border-midnight w-fit h-fit justify-self-center rounded-lg transition-all ease-in-out duration-200 relative shadow-md before:absolute before:bottom-[27.5%] before:left-[50%] before:h-[3px] before:w-0 before:origin-center before:rounded-sm before:bg-coral before:transition-all before:duration-300 before:ease-in-out before:content-[''] sm:hover:before:left-[13%] sm:hover:before:w-[74%] active:left-[1px] active:top-[2px] active:shadow-none">
+            <button className="bg-dust/80 font-bold font-accessbold sm:text-2xl p-4 sm:p-6 sm:px-12 border-2 border-midnight w-fit h-fit justify-self-center rounded-lg transition-all ease-in-out duration-200 relative shadow-md before:absolute before:bottom-[27.5%] before:left-[50%] before:h-[3px] before:w-0 before:origin-center before:rounded-sm before:bg-coral before:transition-all before:duration-300 before:ease-in-out before:content-[''] sm:hover:before:left-[13%] sm:hover:before:w-[74%] active:left-[1px] active:top-[2px] active:shadow-none">
               Download Referral Form
             </button>
             <p className="hidden sm:block px-4 text-center">
@@ -118,7 +118,7 @@ export const Contact = () => {
         </div>
       </div>
       <div className="bg-dust text-xl text-midnight py-8">
-        <div className="contact-ribbon text-bold text-4xl text-dust bg-inlet flex p-4 pl-0 sm:pl-4 justify-center w-[95%] md:w-[90%]">
+        <div className="contact-ribbon font-bold font-accessbold text-4xl text-dust bg-inlet flex p-4 pl-0 sm:pl-4 justify-center w-[95%] md:w-[90%]">
           <div className="sm:pl-[2.5%] md:pl-[5%] flex items-center gap-2 sm:gap-4">
             <MapPin className="h-10 w-10 md:h-16 md:w-16">
               <span className="visually-hidden">
@@ -136,8 +136,8 @@ export const Contact = () => {
             <p className="">
               Mind Matters Memphis is located in Clark Tower at 5100 Poplar
               Avenue,
-              <span className="font-bold"> Suite 322</span>, on the{" "}
-              <span className="font-bold">3rd floor</span>.
+              <span className="font-bold font-accessbold"> Suite 322</span>, on the{" "}
+              <span className="font-bold font-accessbold">3rd floor</span>.
             </p>
             <p className="">
               The Clark Tower at 5100 Poplar Ave. is the tallest building on the
@@ -157,7 +157,7 @@ export const Contact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="flex gap-4 items-center p-4 px-8 border-2 border-inlet rounded-lg font-bold">
+                  <button className="flex gap-4 items-center p-4 px-8 border-2 border-inlet rounded-lg font-bold font-accessbold">
                     <span>Get Directions</span>
                     <ExternalLink className="h-8 w-8 text-inlet">
                       <span className="visually-hidden">
@@ -177,7 +177,7 @@ export const Contact = () => {
               </h2>
               <ul className="py-4 max-w-[500px]">
                 <li className="py-2 lg:pb-12">
-                  <h4 className="text-2xl font-bold">
+                  <h4 className="text-2xl font-bold font-accessbold">
                     1. Ground Level Outside
                   </h4>
                   <p>
@@ -187,7 +187,7 @@ export const Contact = () => {
                   </p>
                 </li>
                 <li className="py-2 lg:pt-12">
-                  <h4 className="text-2xl font-bold">2. Parking Garage</h4>
+                  <h4 className="text-2xl font-bold font-accessbold">2. Parking Garage</h4>
                   <p>
                     {`If you park in the garage (which is often easier), enter the parking
                   garage on the West side, bearing left to go to the upper part of
@@ -203,7 +203,7 @@ export const Contact = () => {
               </ul>
             </div>
 
-            <div className=" text-center italic">
+            <div className=" text-center italic font-accessitalic">
               <div>
                 <img
                   src={clarkTower}

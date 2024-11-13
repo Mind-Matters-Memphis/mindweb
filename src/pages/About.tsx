@@ -68,25 +68,31 @@ export const About = () => {
               traditionally be overlooked in a regular office setting."
             </p>
           </div> */}
-          <div className="flex flex-col gap-4 p-4 rounded-md sm:p-8 md:p-12 md:rounded-none max-w-[768px] items-center border-4 md:border-8 bg-dust border-sage quote-frame-sage">
+          <div className="flex flex-col gap-4 p-4 font-accessitalic italic rounded-md sm:p-8 md:p-12 md:rounded-none max-w-[768px] items-center border-4 md:border-8 bg-dust border-sage quote-frame-sage">
             <p className="">
-              "Neurospychology as a profession shares overlap between
-              understanding the whole person, their psychology, and how they
-              exist in the world with the more medical and objective test
-              results.
+              <i>
+                "Neurospychology as a profession shares overlap between
+                understanding the whole person, their psychology, and how they
+                exist in the world with the more medical and objective test
+                results.
+              </i>
             </p>
             <p className="">
-              "My goal as a healthcare provider is to meet my patients where
-              they are and give them a space where they can feel heard,
-              especially on the more social & mental health side which can
-              traditionally be overlooked in a regular office setting.
+              <i>
+                "My goal as a healthcare provider is to meet my patients where
+                they are and give them a space where they can feel heard,
+                especially on the more social & mental health side which can
+                traditionally be overlooked in a regular office setting.
+              </i>
             </p>
             <p className="">
-              "Having a neurological illness can be associated with limitations
-              to daily life. I get to provide patients with individualized plans
-              of care to help{" "}
-              <span className="italic font-bold">maximize quality of life</span>{" "}
-              within their own health context."
+              <i>
+                "Having a neurological illness can be associated with limitations
+                to daily life. I get to provide patients with individualized plans
+                of care to help{" "}
+                <span className="font-accessbold font-bold">maximize quality of life</span>{" "}
+                within their own health context."
+              </i>
             </p>
             <p className="font-accessdisplay text-2xl self-end mr-4 sm:mr-16">- Dr. Gould</p>
           </div>
@@ -102,7 +108,7 @@ export const About = () => {
         <div>
           <p className="max-w-prose p-4 pt-0 md:p-8 md:pt-0">
             Visit our{" "}
-            <Link className="underline font-bold" to="/contact#top">
+            <Link className="underline font-bold font-accessbold" to="/contact#top">
               Contact page
             </Link>{" "}
             for information on how to request an appointment or refer a patient

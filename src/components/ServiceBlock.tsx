@@ -58,7 +58,7 @@ export const ServiceBlock = ({ service }: Props) => {
           <Link
             to={service.url}
             className={
-              "text-xl sm:text-2xl p-4 sm:px-8 m-4 rounded-lg text-midnight text-center font-semibold shadow-md border-2 lg:border-4 transition-all duration-500 ease-in-out relative active:left-[1px] active:top-[2px] active:shadow-none " +
+              "text-xl sm:text-2xl p-4 sm:px-8 m-4 rounded-lg text-midnight text-center font-semibold font-accessbold shadow-md border-2 lg:border-4 transition-all duration-500 ease-in-out relative active:left-[1px] active:top-[2px] active:shadow-none " +
               service.btnStyle
             }
           >

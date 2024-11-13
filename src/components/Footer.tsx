@@ -98,7 +98,7 @@ export const Footer = () => {
             <ul className="flex flex-col justify-between md:gap-2 md:items-start">
               <li className={listItemStyle}>
                 <Link
-                  to="/clinical-neuropsychology#main-content"
+                  to="/clinical-neuropsychology#top"
                   className={altLinkStyle}
                 >
                   <span className="z-20">Clinical Neuropsychology</span>

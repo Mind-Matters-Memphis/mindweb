@@ -25,7 +25,7 @@ export const Forensic = () => {
           </h1>
           <div className="grid justify-items-center">
             <div className="text-dust p-4 pb-12 max-w-[624px]">
-              <h2 className="font-bold text-2xl pb-2">Offering:</h2>
+              <h2 className="font-bold font-accessbold text-2xl pb-2">Offering:</h2>
               <ul className="list-disc grid gap-4">
                 <li>
                   <p>
@@ -59,27 +59,29 @@ export const Forensic = () => {
                 </li>
               </ul>
               <div className="pt-8">
-                <p className="italic">
-                  For an initial consultation regarding your case, please
-                  contact{" "}
-                  <a
-                    href="tel:+19017667500"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline"
-                  >
-                    901-766-7500
-                  </a>{" "}
-                  or email{" "}
-                  <a
-                    href="mailto:info@mindmattersmemphis.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline"
-                  >
-                    info@mindmattersmemphis.com
-                  </a>
-                  .
+                <p className="italic font-accessitalic">
+                  <i>
+                    For an initial consultation regarding your case, please
+                    contact{" "}
+                    <a
+                      href="tel:+19017667500"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline"
+                    >
+                      901-766-7500
+                    </a>{" "}
+                    or email{" "}
+                    <a
+                      href="mailto:info@mindmattersmemphis.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline"
+                    >
+                      info@mindmattersmemphis.com
+                    </a>
+                    .
+                  </i>
                 </p>
               </div>
             </div>
@@ -105,7 +107,7 @@ export const Forensic = () => {
               </div>
               <div className="max-w-[600px] grid gap-4 pt-8 lg:pt-12">
                 <p>
-                  <span className="font-bold">
+                  <span className="font-bold font-accessbold">
                     Neuropsychological Independent Medical Evaluations
                   </span>{" "}
                   (IMEs) provide an objective assessment of an individual’s
@@ -122,10 +124,13 @@ export const Forensic = () => {
                   eligibility for disability benefits, or provide guidance for
                   legal proceedings.
                 </p>
-                <p className="italic">
-                  Dr. Gould has experience as a plaintiff's and defense expert
-                  witness. Forensic IMEs from Mind Matters Memphis have a rate
-                  of $350/hour, and typically require 10-15 hours at a minimum.
+                <p className="italic font-accessitalic">
+                  <i>
+                    Dr. Gould has experience as a plaintiff's and defense expert
+                    witness. Forensic IMEs from Mind Matters Memphis have a rate
+                    of $350/hour, and typically require 10-15 hours at a
+                    minimum.
+                  </i>
                 </p>
               </div>
             </div>
@@ -156,7 +161,7 @@ export const Forensic = () => {
               </div>
               <div className="max-w-[600px] grid gap-4 pt-8 lg:pt-12">
                 <p>
-                  <span className="font-bold">Testamentary Evaluations</span>{" "}
+                  <span className="font-bold font-accessbold">Testamentary Evaluations</span>{" "}
                   are for individuals, families, and financial planners seeking
                   to protect their wealth. These cognitive evaluations establish
                   whether an individual is of sound mind and has the cognitive
